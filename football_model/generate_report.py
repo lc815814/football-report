@@ -379,25 +379,33 @@ def build():
     print("2026/27 已踢: 英超%d 场" % len(load_open("x", "openfootball_2026-27_en.1.json", "x", skip_unplayed=True)))
 
     # ---- 2026/27 已踢数据（当前状态，用于近5场）----
-    # 数据源：五大联赛 + 葡超 + 荷甲（openfootball 2026-27 实际存在的联赛）
-    forms_2627 = {}
+    # 欧冠 2026/27 首轮已踢（真实比分）+ 2026/27 联赛已踢 → 当前赛季状态
+    cl27_r1 = None
+    fp_r1 = os.path.join(DATA, "cl_2026-27_r1.json")
+    if os.path.exists(fp_r1):
+        cl27_r1 = fm.load_matches_cl(fp_r1, "欧冠 2026/27")
+    cl27_parts = []
+    if cl27_r1 is not None and len(cl27_r1):
+        cl27_parts.append(cl27_r1)
     for code in ["en.1", "es.1", "de.1", "it.1", "fr.1", "pt.1", "nl.1"]:
         fp27 = os.path.join(DATA, f"openfootball_2026-27_{code}.json")
         if os.path.exists(fp27):
             m27 = fm.load_matches_openfootball(fp27, "x", skip_unplayed=True)
             if len(m27):
-                f27 = recent_form(m27, n=5)
-                for t, f in f27.items():
-                    if t not in forms_2627:
-                        forms_2627[t] = f
-    print("2026/27 已有状态数据球队:", len(forms_2627))
+                cl27_parts.append(m27)
+    cl27_form_all = {}
+    if cl27_parts:
+        import pandas as _pd
+        cl27_all = _pd.concat(cl27_parts, ignore_index=True)
+        cl27_form_all = recent_form(cl27_all, n=5)
+    print("2026/27 已有状态数据球队(欧冠+联赛合并):", len(cl27_form_all))
 
-    # 2026/27 合并联赛的 form 仅用 2026/27 已踢（不混 2025/26 赛季末）
+    # 联赛标签页 form = 欧冠+联赛合并（用户要求"最近5场含欧冠"）
     for key in LEAGUES_2627:
         js_params[key]["form"] = {
-            t: forms_2627[t] for t in js_params[key]["att"] if t in forms_2627
+            t: cl27_form_all[t] for t in js_params[key]["att"] if t in cl27_form_all
         }
-        js_params[key]["form_src"] = "2026/27 已踢"
+        js_params[key]["form_src"] = "2026/27 欧冠+联赛已踢"
 
     # ---- 欧冠 2026/27（进行中）----
     # 36 队实力 = 2025/26 欧冠模型（跨联赛可比）优先，其余用 2025/26 联赛模型；
@@ -497,6 +505,25 @@ def build():
             else:
                 cl27["form"][team] = ""
                 cl27["form_src"][team] = "暂无 2026/27 数据"
+            # 2026/27 已踢不足 5 场时，用 2025/26 赛季末段补足（有该队 2025/26 联赛数据的）
+            if len(cl27["form"].get(team, "")) < 5:
+                for lk26 in ["tr_2526", "be_2526", "at_2526", "gr_2526", "sco_2526"]:
+                    tm26 = None
+                    if lk26 in js_params:
+                        if team in js_params[lk26]["att"]:
+                            tm26 = team
+                        else:
+                            _w = team.split()
+                            if len(_w) > 1 and " ".join(_w[:-1]) in js_params[lk26]["att"]:
+                                tm26 = " ".join(_w[:-1])
+                    if tm26:
+                        f26 = recent_form(m_holders[lk26], n=5).get(tm26) or ""
+                        if f26:
+                            cur = cl27["form"].get(team, "")
+                            need = min(len(f26), 5 - len(cur))
+                            cl27["form"][team] = f26[-need:] + cur
+                            cl27["form_src"][team] = "2025/26末+" + cl27["form_src"][team]
+                        break
         else:
             p = js_params[src[0]]
             if src[0] == "cl2526":
@@ -515,6 +542,27 @@ def build():
             else:
                 cl27["form"][team] = ""
                 cl27["form_src"][team] = "暂无 2026/27 数据"
+            # 2026/27 已踢不足 5 场时，用 2025/26 赛季末段补足（有该队 2025/26 联赛数据的）
+            if len(cl27["form"].get(team, "")) < 5:
+                for lk26 in ["tr_2526", "be_2526", "at_2526", "gr_2526", "sco_2526"]:
+                    tm26 = None
+                    if lk26 in js_params:
+                        if team in js_params[lk26]["att"]:
+                            tm26 = team
+                        elif src[1] in js_params[lk26]["att"]:
+                            tm26 = src[1]
+                        else:
+                            _w = team.split()
+                            if len(_w) > 1 and " ".join(_w[:-1]) in js_params[lk26]["att"]:
+                                tm26 = " ".join(_w[:-1])
+                    if tm26:
+                        f26 = recent_form(m_holders[lk26], n=5).get(tm26) or ""
+                        if f26:
+                            cur = cl27["form"].get(team, "")
+                            need = min(len(f26), 5 - len(cur))
+                            cl27["form"][team] = f26[-need:] + cur
+                            cl27["form_src"][team] = "2025/26末+" + cl27["form_src"][team]
+                        break
     js_params["cl2627"] = cl27
     print("CL 2026/27: %d teams（32 队有 2025/26 数据并校准，4 队中性）" % len(cl27_src))
 
