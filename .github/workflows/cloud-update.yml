@@ -1,0 +1,43 @@
+name: Cloud Auto Update
+
+# 云端兜底自动更新：电脑关机也能跑
+# 每天 17:00（北京时间，UTC 09:00）拉取 openfootball 最新比分 -> 合并 -> 生成报告 -> 发布
+# 本机 14:15 的任务仍会做更完整的多源核实补录
+
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cloud-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: 安装依赖
+        run: pip install -r football_model/requirements.txt
+      - name: 运行云端更新
+        run: python cloud_update.py
+      - name: 提交并推送（有变化时）
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "云端自动更新 $(date -u +%Y-%m-%dT%H:%M)"
+            git pull --rebase origin main
+            git push
+            echo "已推送更新"
+          else
+            echo "无数据变化，跳过推送"
+          fi

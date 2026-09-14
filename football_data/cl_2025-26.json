@@ -1,0 +1,2993 @@
+{
+ "name": "UEFA Champions League 2025/26",
+ "matches": [
+  {
+   "round": "League Matchday 1",
+   "date": "Sep 16 2025",
+   "team1": "Athletic Club",
+   "team2": "Arsenal FC",
+   "score": {
+    "ft": [
+     0,
+     2
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 1",
+   "date": "Sep 16 2025",
+   "team1": "PSV",
+   "team2": "Royale Union Saint-Gilloise",
+   "score": {
+    "ft": [
+     1,
+     3
+    ],
+    "ht": [
+     0,
+     2
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 1",
+   "date": "Sep 16 2025",
+   "team1": "Juventus FC",
+   "team2": "Borussia Dortmund",
+   "score": {
+    "ft": [
+     4,
+     4
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 1",
+   "date": "Sep 16 2025",
+   "team1": "Sport Lisboa e Benfica",
+   "team2": "Qarabağ Ağdam FK",
+   "score": {
+    "ft": [
+     2,
+     3
+    ],
+    "ht": [
+     2,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 1",
+   "date": "Sep 16 2025",
+   "team1": "Tottenham Hotspur FC",
+   "team2": "Villarreal CF",
+   "score": {
+    "ft": [
+     1,
+     0
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 1",
+   "date": "Sep 16 2025",
+   "team1": "Real Madrid CF",
+   "team2": "Olympique de Marseille",
+   "score": {
+    "ft": [
+     2,
+     1
+    ],
+    "ht": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 1",
+   "date": "Sep 17",
+   "team1": "SK Slavia Praha",
+   "team2": "FK Bodø/Glimt",
+   "score": {
+    "ft": [
+     2,
+     2
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 1",
+   "date": "Sep 17",
+   "team1": "PAE Olympiakos SFP",
+   "team2": "Paphos FC",
+   "score": {
+    "ft": [
+     0,
+     0
+    ],
+    "ht": null
+   }
+  },
+  {
+   "round": "League Matchday 1",
+   "date": "Sep 17",
+   "team1": "AFC Ajax",
+   "team2": "FC Internazionale Milano",
+   "score": {
+    "ft": [
+     0,
+     2
+    ],
+    "ht": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 1",
+   "date": "Sep 17",
+   "team1": "Liverpool FC",
+   "team2": "Club Atlético de Madrid",
+   "score": {
+    "ft": [
+     3,
+     2
+    ],
+    "ht": [
+     2,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 1",
+   "date": "Sep 17",
+   "team1": "Paris Saint-Germain FC",
+   "team2": "Atalanta BC",
+   "score": {
+    "ft": [
+     4,
+     0
+    ],
+    "ht": [
+     2,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 1",
+   "date": "Sep 17",
+   "team1": "FC Bayern München",
+   "team2": "Chelsea FC",
+   "score": {
+    "ft": [
+     3,
+     1
+    ],
+    "ht": [
+     2,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 1",
+   "date": "Sep 18",
+   "team1": "FC København",
+   "team2": "Bayer 04 Leverkusen",
+   "score": {
+    "ft": [
+     2,
+     2
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 1",
+   "date": "Sep 18",
+   "team1": "Club Brugge KV",
+   "team2": "AS Monaco FC",
+   "score": {
+    "ft": [
+     4,
+     1
+    ],
+    "ht": [
+     3,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 1",
+   "date": "Sep 18",
+   "team1": "Newcastle United FC",
+   "team2": "FC Barcelona",
+   "score": {
+    "ft": [
+     1,
+     2
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 1",
+   "date": "Sep 18",
+   "team1": "Manchester City FC",
+   "team2": "SSC Napoli",
+   "score": {
+    "ft": [
+     2,
+     0
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 1",
+   "date": "Sep 18",
+   "team1": "Eintracht Frankfurt",
+   "team2": "Galatasaray SK",
+   "score": {
+    "ft": [
+     5,
+     1
+    ],
+    "ht": [
+     3,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 1",
+   "date": "Sep 18",
+   "team1": "Sporting Clube de Portugal",
+   "team2": "FK Kairat",
+   "score": {
+    "ft": [
+     4,
+     1
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 2",
+   "date": "Sep 30",
+   "team1": "Atalanta BC",
+   "team2": "Club Brugge KV",
+   "score": {
+    "ft": [
+     2,
+     1
+    ],
+    "ht": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 2",
+   "date": "Sep 30",
+   "team1": "FK Kairat",
+   "team2": "Real Madrid CF",
+   "score": {
+    "ft": [
+     0,
+     5
+    ],
+    "ht": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 2",
+   "date": "Sep 30",
+   "team1": "Galatasaray SK",
+   "team2": "Liverpool FC",
+   "score": {
+    "ft": [
+     1,
+     0
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 2",
+   "date": "Sep 30",
+   "team1": "Club Atlético de Madrid",
+   "team2": "Eintracht Frankfurt",
+   "score": {
+    "ft": [
+     5,
+     1
+    ],
+    "ht": [
+     3,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 2",
+   "date": "Sep 30",
+   "team1": "Olympique de Marseille",
+   "team2": "AFC Ajax",
+   "score": {
+    "ft": [
+     4,
+     0
+    ],
+    "ht": [
+     3,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 2",
+   "date": "Sep 30",
+   "team1": "FK Bodø/Glimt",
+   "team2": "Tottenham Hotspur FC",
+   "score": {
+    "ft": [
+     2,
+     2
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 2",
+   "date": "Sep 30",
+   "team1": "Paphos FC",
+   "team2": "FC Bayern München",
+   "score": {
+    "ft": [
+     1,
+     5
+    ],
+    "ht": [
+     1,
+     4
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 2",
+   "date": "Sep 30",
+   "team1": "Chelsea FC",
+   "team2": "Sport Lisboa e Benfica",
+   "score": {
+    "ft": [
+     1,
+     0
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 2",
+   "date": "Sep 30",
+   "team1": "FC Internazionale Milano",
+   "team2": "SK Slavia Praha",
+   "score": {
+    "ft": [
+     3,
+     0
+    ],
+    "ht": [
+     2,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 2",
+   "date": "Oct 1",
+   "team1": "Qarabağ Ağdam FK",
+   "team2": "FC København",
+   "score": {
+    "ft": [
+     2,
+     0
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 2",
+   "date": "Oct 1",
+   "team1": "Royale Union Saint-Gilloise",
+   "team2": "Newcastle United FC",
+   "score": {
+    "ft": [
+     0,
+     4
+    ],
+    "ht": [
+     0,
+     2
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 2",
+   "date": "Oct 1",
+   "team1": "Borussia Dortmund",
+   "team2": "Athletic Club",
+   "score": {
+    "ft": [
+     4,
+     1
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 2",
+   "date": "Oct 1",
+   "team1": "FC Barcelona",
+   "team2": "Paris Saint-Germain FC",
+   "score": {
+    "ft": [
+     1,
+     2
+    ],
+    "ht": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 2",
+   "date": "Oct 1",
+   "team1": "AS Monaco FC",
+   "team2": "Manchester City FC",
+   "score": {
+    "ft": [
+     2,
+     2
+    ],
+    "ht": [
+     1,
+     2
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 2",
+   "date": "Oct 1",
+   "team1": "Bayer 04 Leverkusen",
+   "team2": "PSV",
+   "score": {
+    "ft": [
+     1,
+     1
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 2",
+   "date": "Oct 1",
+   "team1": "Arsenal FC",
+   "team2": "PAE Olympiakos SFP",
+   "score": {
+    "ft": [
+     2,
+     0
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 2",
+   "date": "Oct 1",
+   "team1": "Villarreal CF",
+   "team2": "Juventus FC",
+   "score": {
+    "ft": [
+     2,
+     2
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 2",
+   "date": "Oct 1",
+   "team1": "SSC Napoli",
+   "team2": "Sporting Clube de Portugal",
+   "score": {
+    "ft": [
+     2,
+     1
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 3",
+   "date": "Oct 21",
+   "team1": "FC Barcelona",
+   "team2": "PAE Olympiakos SFP",
+   "score": {
+    "ft": [
+     6,
+     1
+    ],
+    "ht": [
+     2,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 3",
+   "date": "Oct 21",
+   "team1": "FK Kairat",
+   "team2": "Paphos FC",
+   "score": {
+    "ft": [
+     0,
+     0
+    ],
+    "ht": null
+   }
+  },
+  {
+   "round": "League Matchday 3",
+   "date": "Oct 21",
+   "team1": "Royale Union Saint-Gilloise",
+   "team2": "FC Internazionale Milano",
+   "score": {
+    "ft": [
+     0,
+     4
+    ],
+    "ht": [
+     0,
+     2
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 3",
+   "date": "Oct 21",
+   "team1": "FC København",
+   "team2": "Borussia Dortmund",
+   "score": {
+    "ft": [
+     2,
+     4
+    ],
+    "ht": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 3",
+   "date": "Oct 21",
+   "team1": "Bayer 04 Leverkusen",
+   "team2": "Paris Saint-Germain FC",
+   "score": {
+    "ft": [
+     2,
+     7
+    ],
+    "ht": [
+     1,
+     4
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 3",
+   "date": "Oct 21",
+   "team1": "Villarreal CF",
+   "team2": "Manchester City FC",
+   "score": {
+    "ft": [
+     0,
+     2
+    ],
+    "ht": [
+     0,
+     2
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 3",
+   "date": "Oct 21",
+   "team1": "Arsenal FC",
+   "team2": "Club Atlético de Madrid",
+   "score": {
+    "ft": [
+     4,
+     0
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 3",
+   "date": "Oct 21",
+   "team1": "Newcastle United FC",
+   "team2": "Sport Lisboa e Benfica",
+   "score": {
+    "ft": [
+     3,
+     0
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 3",
+   "date": "Oct 21",
+   "team1": "PSV",
+   "team2": "SSC Napoli",
+   "score": {
+    "ft": [
+     6,
+     2
+    ],
+    "ht": [
+     2,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 3",
+   "date": "Oct 22",
+   "team1": "Galatasaray SK",
+   "team2": "FK Bodø/Glimt",
+   "score": {
+    "ft": [
+     3,
+     1
+    ],
+    "ht": [
+     2,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 3",
+   "date": "Oct 22",
+   "team1": "Athletic Club",
+   "team2": "Qarabağ Ağdam FK",
+   "score": {
+    "ft": [
+     3,
+     1
+    ],
+    "ht": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 3",
+   "date": "Oct 22",
+   "team1": "Eintracht Frankfurt",
+   "team2": "Liverpool FC",
+   "score": {
+    "ft": [
+     1,
+     5
+    ],
+    "ht": [
+     1,
+     3
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 3",
+   "date": "Oct 22",
+   "team1": "Atalanta BC",
+   "team2": "SK Slavia Praha",
+   "score": {
+    "ft": [
+     0,
+     0
+    ],
+    "ht": null
+   }
+  },
+  {
+   "round": "League Matchday 3",
+   "date": "Oct 22",
+   "team1": "Sporting Clube de Portugal",
+   "team2": "Olympique de Marseille",
+   "score": {
+    "ft": [
+     2,
+     1
+    ],
+    "ht": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 3",
+   "date": "Oct 22",
+   "team1": "AS Monaco FC",
+   "team2": "Tottenham Hotspur FC",
+   "score": {
+    "ft": [
+     0,
+     0
+    ],
+    "ht": null
+   }
+  },
+  {
+   "round": "League Matchday 3",
+   "date": "Oct 22",
+   "team1": "FC Bayern München",
+   "team2": "Club Brugge KV",
+   "score": {
+    "ft": [
+     4,
+     0
+    ],
+    "ht": [
+     3,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 3",
+   "date": "Oct 22",
+   "team1": "Chelsea FC",
+   "team2": "AFC Ajax",
+   "score": {
+    "ft": [
+     5,
+     1
+    ],
+    "ht": [
+     4,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 3",
+   "date": "Oct 22",
+   "team1": "Real Madrid CF",
+   "team2": "Juventus FC",
+   "score": {
+    "ft": [
+     1,
+     0
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 4",
+   "date": "Nov 4",
+   "team1": "SK Slavia Praha",
+   "team2": "Arsenal FC",
+   "score": {
+    "ft": [
+     0,
+     3
+    ],
+    "ht": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 4",
+   "date": "Nov 4",
+   "team1": "SSC Napoli",
+   "team2": "Eintracht Frankfurt",
+   "score": {
+    "ft": [
+     0,
+     0
+    ],
+    "ht": null
+   }
+  },
+  {
+   "round": "League Matchday 4",
+   "date": "Nov 4",
+   "team1": "Juventus FC",
+   "team2": "Sporting Clube de Portugal",
+   "score": {
+    "ft": [
+     1,
+     1
+    ],
+    "ht": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 4",
+   "date": "Nov 4",
+   "team1": "Club Atlético de Madrid",
+   "team2": "Royale Union Saint-Gilloise",
+   "score": {
+    "ft": [
+     3,
+     1
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 4",
+   "date": "Nov 4",
+   "team1": "Tottenham Hotspur FC",
+   "team2": "FC København",
+   "score": {
+    "ft": [
+     4,
+     0
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 4",
+   "date": "Nov 4",
+   "team1": "FK Bodø/Glimt",
+   "team2": "AS Monaco FC",
+   "score": {
+    "ft": [
+     0,
+     1
+    ],
+    "ht": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 4",
+   "date": "Nov 4",
+   "team1": "PAE Olympiakos SFP",
+   "team2": "PSV",
+   "score": {
+    "ft": [
+     1,
+     1
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 4",
+   "date": "Nov 4",
+   "team1": "Paris Saint-Germain FC",
+   "team2": "FC Bayern München",
+   "score": {
+    "ft": [
+     1,
+     2
+    ],
+    "ht": [
+     0,
+     2
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 4",
+   "date": "Nov 4",
+   "team1": "Liverpool FC",
+   "team2": "Real Madrid CF",
+   "score": {
+    "ft": [
+     1,
+     0
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 4",
+   "date": "Nov 5",
+   "team1": "Paphos FC",
+   "team2": "Villarreal CF",
+   "score": {
+    "ft": [
+     1,
+     0
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 4",
+   "date": "Nov 5",
+   "team1": "Qarabağ Ağdam FK",
+   "team2": "Chelsea FC",
+   "score": {
+    "ft": [
+     2,
+     2
+    ],
+    "ht": [
+     2,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 4",
+   "date": "Nov 5",
+   "team1": "FC Internazionale Milano",
+   "team2": "FK Kairat",
+   "score": {
+    "ft": [
+     2,
+     1
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 4",
+   "date": "Nov 5",
+   "team1": "Manchester City FC",
+   "team2": "Borussia Dortmund",
+   "score": {
+    "ft": [
+     4,
+     1
+    ],
+    "ht": [
+     2,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 4",
+   "date": "Nov 5",
+   "team1": "Club Brugge KV",
+   "team2": "FC Barcelona",
+   "score": {
+    "ft": [
+     3,
+     3
+    ],
+    "ht": [
+     2,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 4",
+   "date": "Nov 5",
+   "team1": "Sport Lisboa e Benfica",
+   "team2": "Bayer 04 Leverkusen",
+   "score": {
+    "ft": [
+     0,
+     1
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 4",
+   "date": "Nov 5",
+   "team1": "Olympique de Marseille",
+   "team2": "Atalanta BC",
+   "score": {
+    "ft": [
+     0,
+     1
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 4",
+   "date": "Nov 5",
+   "team1": "AFC Ajax",
+   "team2": "Galatasaray SK",
+   "score": {
+    "ft": [
+     0,
+     3
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 4",
+   "date": "Nov 5",
+   "team1": "Newcastle United FC",
+   "team2": "Athletic Club",
+   "score": {
+    "ft": [
+     2,
+     0
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 5",
+   "date": "Nov 25",
+   "team1": "AFC Ajax",
+   "team2": "Sport Lisboa e Benfica",
+   "score": {
+    "ft": [
+     0,
+     2
+    ],
+    "ht": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 5",
+   "date": "Nov 25",
+   "team1": "Galatasaray SK",
+   "team2": "Royale Union Saint-Gilloise",
+   "score": {
+    "ft": [
+     0,
+     1
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 5",
+   "date": "Nov 25",
+   "team1": "Borussia Dortmund",
+   "team2": "Villarreal CF",
+   "score": {
+    "ft": [
+     4,
+     0
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 5",
+   "date": "Nov 25",
+   "team1": "Manchester City FC",
+   "team2": "Bayer 04 Leverkusen",
+   "score": {
+    "ft": [
+     0,
+     2
+    ],
+    "ht": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 5",
+   "date": "Nov 25",
+   "team1": "FK Bodø/Glimt",
+   "team2": "Juventus FC",
+   "score": {
+    "ft": [
+     2,
+     3
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 5",
+   "date": "Nov 25",
+   "team1": "Olympique de Marseille",
+   "team2": "Newcastle United FC",
+   "score": {
+    "ft": [
+     2,
+     1
+    ],
+    "ht": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 5",
+   "date": "Nov 25",
+   "team1": "SK Slavia Praha",
+   "team2": "Athletic Club",
+   "score": {
+    "ft": [
+     0,
+     0
+    ],
+    "ht": null
+   }
+  },
+  {
+   "round": "League Matchday 5",
+   "date": "Nov 25",
+   "team1": "SSC Napoli",
+   "team2": "Qarabağ Ağdam FK",
+   "score": {
+    "ft": [
+     2,
+     0
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 5",
+   "date": "Nov 25",
+   "team1": "Chelsea FC",
+   "team2": "FC Barcelona",
+   "score": {
+    "ft": [
+     3,
+     0
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 5",
+   "date": "Nov 26",
+   "team1": "Paphos FC",
+   "team2": "AS Monaco FC",
+   "score": {
+    "ft": [
+     2,
+     2
+    ],
+    "ht": [
+     1,
+     2
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 5",
+   "date": "Nov 26",
+   "team1": "FC København",
+   "team2": "FK Kairat",
+   "score": {
+    "ft": [
+     3,
+     2
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 5",
+   "date": "Nov 26",
+   "team1": "Liverpool FC",
+   "team2": "PSV",
+   "score": {
+    "ft": [
+     1,
+     4
+    ],
+    "ht": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 5",
+   "date": "Nov 26",
+   "team1": "Paris Saint-Germain FC",
+   "team2": "Tottenham Hotspur FC",
+   "score": {
+    "ft": [
+     5,
+     3
+    ],
+    "ht": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 5",
+   "date": "Nov 26",
+   "team1": "Eintracht Frankfurt",
+   "team2": "Atalanta BC",
+   "score": {
+    "ft": [
+     0,
+     3
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 5",
+   "date": "Nov 26",
+   "team1": "Sporting Clube de Portugal",
+   "team2": "Club Brugge KV",
+   "score": {
+    "ft": [
+     3,
+     0
+    ],
+    "ht": [
+     2,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 5",
+   "date": "Nov 26",
+   "team1": "Arsenal FC",
+   "team2": "FC Bayern München",
+   "score": {
+    "ft": [
+     3,
+     1
+    ],
+    "ht": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 5",
+   "date": "Nov 26",
+   "team1": "PAE Olympiakos SFP",
+   "team2": "Real Madrid CF",
+   "score": {
+    "ft": [
+     3,
+     4
+    ],
+    "ht": [
+     1,
+     3
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 5",
+   "date": "Nov 26",
+   "team1": "Club Atlético de Madrid",
+   "team2": "FC Internazionale Milano",
+   "score": {
+    "ft": [
+     2,
+     1
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 6",
+   "date": "Dec 9",
+   "team1": "FK Kairat",
+   "team2": "PAE Olympiakos SFP",
+   "score": {
+    "ft": [
+     0,
+     1
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 6",
+   "date": "Dec 9",
+   "team1": "FC Bayern München",
+   "team2": "Sporting Clube de Portugal",
+   "score": {
+    "ft": [
+     3,
+     1
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 6",
+   "date": "Dec 9",
+   "team1": "FC Barcelona",
+   "team2": "Eintracht Frankfurt",
+   "score": {
+    "ft": [
+     2,
+     1
+    ],
+    "ht": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 6",
+   "date": "Dec 9",
+   "team1": "PSV",
+   "team2": "Club Atlético de Madrid",
+   "score": {
+    "ft": [
+     2,
+     3
+    ],
+    "ht": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 6",
+   "date": "Dec 9",
+   "team1": "Royale Union Saint-Gilloise",
+   "team2": "Olympique de Marseille",
+   "score": {
+    "ft": [
+     2,
+     3
+    ],
+    "ht": [
+     1,
+     2
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 6",
+   "date": "Dec 9",
+   "team1": "Tottenham Hotspur FC",
+   "team2": "SK Slavia Praha",
+   "score": {
+    "ft": [
+     3,
+     0
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 6",
+   "date": "Dec 9",
+   "team1": "AS Monaco FC",
+   "team2": "Galatasaray SK",
+   "score": {
+    "ft": [
+     1,
+     0
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 6",
+   "date": "Dec 9",
+   "team1": "Atalanta BC",
+   "team2": "Chelsea FC",
+   "score": {
+    "ft": [
+     2,
+     1
+    ],
+    "ht": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 6",
+   "date": "Dec 9",
+   "team1": "FC Internazionale Milano",
+   "team2": "Liverpool FC",
+   "score": {
+    "ft": [
+     0,
+     1
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 6",
+   "date": "Dec 10",
+   "team1": "Villarreal CF",
+   "team2": "FC København",
+   "score": {
+    "ft": [
+     2,
+     3
+    ],
+    "ht": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 6",
+   "date": "Dec 10",
+   "team1": "Qarabağ Ağdam FK",
+   "team2": "AFC Ajax",
+   "score": {
+    "ft": [
+     2,
+     4
+    ],
+    "ht": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 6",
+   "date": "Dec 10",
+   "team1": "Borussia Dortmund",
+   "team2": "FK Bodø/Glimt",
+   "score": {
+    "ft": [
+     2,
+     2
+    ],
+    "ht": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 6",
+   "date": "Dec 10",
+   "team1": "Athletic Club",
+   "team2": "Paris Saint-Germain FC",
+   "score": {
+    "ft": [
+     0,
+     0
+    ],
+    "ht": null
+   }
+  },
+  {
+   "round": "League Matchday 6",
+   "date": "Dec 10",
+   "team1": "Bayer 04 Leverkusen",
+   "team2": "Newcastle United FC",
+   "score": {
+    "ft": [
+     2,
+     2
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 6",
+   "date": "Dec 10",
+   "team1": "Club Brugge KV",
+   "team2": "Arsenal FC",
+   "score": {
+    "ft": [
+     0,
+     3
+    ],
+    "ht": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 6",
+   "date": "Dec 10",
+   "team1": "Sport Lisboa e Benfica",
+   "team2": "SSC Napoli",
+   "score": {
+    "ft": [
+     2,
+     0
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 6",
+   "date": "Dec 10",
+   "team1": "Juventus FC",
+   "team2": "Paphos FC",
+   "score": {
+    "ft": [
+     2,
+     0
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 6",
+   "date": "Dec 10",
+   "team1": "Real Madrid CF",
+   "team2": "Manchester City FC",
+   "score": {
+    "ft": [
+     1,
+     2
+    ],
+    "ht": [
+     1,
+     2
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 7",
+   "date": "Jan 20 2026",
+   "team1": "FK Kairat",
+   "team2": "Club Brugge KV",
+   "score": {
+    "ft": [
+     1,
+     4
+    ],
+    "ht": [
+     0,
+     2
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 7",
+   "date": "Jan 20 2026",
+   "team1": "FK Bodø/Glimt",
+   "team2": "Manchester City FC",
+   "score": {
+    "ft": [
+     3,
+     1
+    ],
+    "ht": [
+     2,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 7",
+   "date": "Jan 20 2026",
+   "team1": "Tottenham Hotspur FC",
+   "team2": "Borussia Dortmund",
+   "score": {
+    "ft": [
+     2,
+     0
+    ],
+    "ht": [
+     2,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 7",
+   "date": "Jan 20 2026",
+   "team1": "Sporting Clube de Portugal",
+   "team2": "Paris Saint-Germain FC",
+   "score": {
+    "ft": [
+     2,
+     1
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 7",
+   "date": "Jan 20 2026",
+   "team1": "PAE Olympiakos SFP",
+   "team2": "Bayer 04 Leverkusen",
+   "score": {
+    "ft": [
+     2,
+     0
+    ],
+    "ht": [
+     2,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 7",
+   "date": "Jan 20 2026",
+   "team1": "Villarreal CF",
+   "team2": "AFC Ajax",
+   "score": {
+    "ft": [
+     1,
+     2
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 7",
+   "date": "Jan 20 2026",
+   "team1": "FC København",
+   "team2": "SSC Napoli",
+   "score": {
+    "ft": [
+     1,
+     1
+    ],
+    "ht": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 7",
+   "date": "Jan 20 2026",
+   "team1": "Real Madrid CF",
+   "team2": "AS Monaco FC",
+   "score": {
+    "ft": [
+     6,
+     1
+    ],
+    "ht": [
+     2,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 7",
+   "date": "Jan 20 2026",
+   "team1": "FC Internazionale Milano",
+   "team2": "Arsenal FC",
+   "score": {
+    "ft": [
+     1,
+     3
+    ],
+    "ht": [
+     1,
+     2
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 7",
+   "date": "Jan 21",
+   "team1": "Qarabağ Ağdam FK",
+   "team2": "Eintracht Frankfurt",
+   "score": {
+    "ft": [
+     3,
+     2
+    ],
+    "ht": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 7",
+   "date": "Jan 21",
+   "team1": "Galatasaray SK",
+   "team2": "Club Atlético de Madrid",
+   "score": {
+    "ft": [
+     1,
+     1
+    ],
+    "ht": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 7",
+   "date": "Jan 21",
+   "team1": "Olympique de Marseille",
+   "team2": "Liverpool FC",
+   "score": {
+    "ft": [
+     0,
+     3
+    ],
+    "ht": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 7",
+   "date": "Jan 21",
+   "team1": "SK Slavia Praha",
+   "team2": "FC Barcelona",
+   "score": {
+    "ft": [
+     2,
+     4
+    ],
+    "ht": [
+     2,
+     2
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 7",
+   "date": "Jan 21",
+   "team1": "Atalanta BC",
+   "team2": "Athletic Club",
+   "score": {
+    "ft": [
+     2,
+     3
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 7",
+   "date": "Jan 21",
+   "team1": "Juventus FC",
+   "team2": "Sport Lisboa e Benfica",
+   "score": {
+    "ft": [
+     2,
+     0
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 7",
+   "date": "Jan 21",
+   "team1": "Newcastle United FC",
+   "team2": "PSV",
+   "score": {
+    "ft": [
+     3,
+     0
+    ],
+    "ht": [
+     2,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 7",
+   "date": "Jan 21",
+   "team1": "FC Bayern München",
+   "team2": "Royale Union Saint-Gilloise",
+   "score": {
+    "ft": [
+     2,
+     0
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 7",
+   "date": "Jan 21",
+   "team1": "Chelsea FC",
+   "team2": "Paphos FC",
+   "score": {
+    "ft": [
+     1,
+     0
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 8",
+   "date": "Jan 28",
+   "team1": "Liverpool FC",
+   "team2": "Qarabağ Ağdam FK",
+   "score": {
+    "ft": [
+     6,
+     0
+    ],
+    "ht": [
+     2,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 8",
+   "date": "Jan 28",
+   "team1": "FC Barcelona",
+   "team2": "FC København",
+   "score": {
+    "ft": [
+     4,
+     1
+    ],
+    "ht": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 8",
+   "date": "Jan 28",
+   "team1": "Manchester City FC",
+   "team2": "Galatasaray SK",
+   "score": {
+    "ft": [
+     2,
+     0
+    ],
+    "ht": [
+     2,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 8",
+   "date": "Jan 28",
+   "team1": "Bayer 04 Leverkusen",
+   "team2": "Villarreal CF",
+   "score": {
+    "ft": [
+     3,
+     0
+    ],
+    "ht": [
+     2,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 8",
+   "date": "Jan 28",
+   "team1": "Arsenal FC",
+   "team2": "FK Kairat",
+   "score": {
+    "ft": [
+     3,
+     2
+    ],
+    "ht": [
+     3,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 8",
+   "date": "Jan 28",
+   "team1": "Royale Union Saint-Gilloise",
+   "team2": "Atalanta BC",
+   "score": {
+    "ft": [
+     1,
+     0
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 8",
+   "date": "Jan 28",
+   "team1": "Club Brugge KV",
+   "team2": "Olympique de Marseille",
+   "score": {
+    "ft": [
+     3,
+     0
+    ],
+    "ht": [
+     2,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 8",
+   "date": "Jan 28",
+   "team1": "Eintracht Frankfurt",
+   "team2": "Tottenham Hotspur FC",
+   "score": {
+    "ft": [
+     0,
+     2
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 8",
+   "date": "Jan 28",
+   "team1": "AS Monaco FC",
+   "team2": "Juventus FC",
+   "score": {
+    "ft": [
+     0,
+     0
+    ],
+    "ht": null
+   }
+  },
+  {
+   "round": "League Matchday 8",
+   "date": "Jan 28",
+   "team1": "Club Atlético de Madrid",
+   "team2": "FK Bodø/Glimt",
+   "score": {
+    "ft": [
+     1,
+     2
+    ],
+    "ht": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 8",
+   "date": "Jan 28",
+   "team1": "Athletic Club",
+   "team2": "Sporting Clube de Portugal",
+   "score": {
+    "ft": [
+     2,
+     3
+    ],
+    "ht": [
+     2,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 8",
+   "date": "Jan 28",
+   "team1": "AFC Ajax",
+   "team2": "PAE Olympiakos SFP",
+   "score": {
+    "ft": [
+     1,
+     2
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 8",
+   "date": "Jan 28",
+   "team1": "Paris Saint-Germain FC",
+   "team2": "Newcastle United FC",
+   "score": {
+    "ft": [
+     1,
+     1
+    ],
+    "ht": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 8",
+   "date": "Jan 28",
+   "team1": "Paphos FC",
+   "team2": "SK Slavia Praha",
+   "score": {
+    "ft": [
+     4,
+     1
+    ],
+    "ht": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 8",
+   "date": "Jan 28",
+   "team1": "PSV",
+   "team2": "FC Bayern München",
+   "score": {
+    "ft": [
+     1,
+     2
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 8",
+   "date": "Jan 28",
+   "team1": "SSC Napoli",
+   "team2": "Chelsea FC",
+   "score": {
+    "ft": [
+     2,
+     3
+    ],
+    "ht": [
+     2,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 8",
+   "date": "Jan 28",
+   "team1": "Sport Lisboa e Benfica",
+   "team2": "Real Madrid CF",
+   "score": {
+    "ft": [
+     4,
+     2
+    ],
+    "ht": [
+     2,
+     1
+    ]
+   }
+  },
+  {
+   "round": "League Matchday 8",
+   "date": "Jan 28",
+   "team1": "Borussia Dortmund",
+   "team2": "FC Internazionale Milano",
+   "score": {
+    "ft": [
+     0,
+     2
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "Playoffs Matchday 1",
+   "date": "Feb 17",
+   "team1": "Galatasaray SK",
+   "team2": "Juventus FC",
+   "score": {
+    "ft": [
+     5,
+     2
+    ],
+    "ht": [
+     1,
+     2
+    ]
+   }
+  },
+  {
+   "round": "Playoffs Matchday 1",
+   "date": "Feb 17",
+   "team1": "Sport Lisboa e Benfica",
+   "team2": "Real Madrid CF",
+   "score": {
+    "ft": [
+     0,
+     1
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "Playoffs Matchday 1",
+   "date": "Feb 17",
+   "team1": "AS Monaco FC",
+   "team2": "Paris Saint-Germain FC",
+   "score": {
+    "ft": [
+     2,
+     3
+    ],
+    "ht": [
+     2,
+     2
+    ]
+   }
+  },
+  {
+   "round": "Playoffs Matchday 1",
+   "date": "Feb 17",
+   "team1": "Borussia Dortmund",
+   "team2": "Atalanta BC",
+   "score": {
+    "ft": [
+     2,
+     0
+    ],
+    "ht": [
+     2,
+     0
+    ]
+   }
+  },
+  {
+   "round": "Playoffs Matchday 1",
+   "date": "Feb 18",
+   "team1": "Qarabağ Ağdam FK",
+   "team2": "Newcastle United FC",
+   "score": {
+    "ft": [
+     1,
+     6
+    ],
+    "ht": [
+     0,
+     5
+    ]
+   }
+  },
+  {
+   "round": "Playoffs Matchday 1",
+   "date": "Feb 18",
+   "team1": "Club Brugge KV",
+   "team2": "Club Atlético de Madrid",
+   "score": {
+    "ft": [
+     3,
+     3
+    ],
+    "ht": [
+     0,
+     2
+    ]
+   }
+  },
+  {
+   "round": "Playoffs Matchday 1",
+   "date": "Feb 18",
+   "team1": "PAE Olympiakos SFP",
+   "team2": "Bayer 04 Leverkusen",
+   "score": {
+    "ft": [
+     0,
+     2
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "Playoffs Matchday 1",
+   "date": "Feb 18",
+   "team1": "FK Bodø/Glimt",
+   "team2": "FC Internazionale Milano",
+   "score": {
+    "ft": [
+     3,
+     1
+    ],
+    "ht": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "round": "Playoffs Matchday 2",
+   "date": "Feb 24",
+   "team1": "Club Atlético de Madrid",
+   "team2": "Club Brugge KV",
+   "score": {
+    "ft": [
+     4,
+     1
+    ],
+    "ht": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "round": "Playoffs Matchday 2",
+   "date": "Feb 24",
+   "team1": "Newcastle United FC",
+   "team2": "Qarabağ Ağdam FK",
+   "score": {
+    "ft": [
+     3,
+     2
+    ],
+    "ht": [
+     2,
+     0
+    ]
+   }
+  },
+  {
+   "round": "Playoffs Matchday 2",
+   "date": "Feb 24",
+   "team1": "Bayer 04 Leverkusen",
+   "team2": "PAE Olympiakos SFP",
+   "score": {
+    "ft": [
+     0,
+     0
+    ],
+    "ht": null
+   }
+  },
+  {
+   "round": "Playoffs Matchday 2",
+   "date": "Feb 24",
+   "team1": "FC Internazionale Milano",
+   "team2": "FK Bodø/Glimt",
+   "score": {
+    "ft": [
+     1,
+     2
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "Playoffs Matchday 2",
+   "date": "Feb 25",
+   "team1": "Atalanta BC",
+   "team2": "Borussia Dortmund",
+   "score": {
+    "ft": [
+     4,
+     1
+    ],
+    "ht": [
+     2,
+     0
+    ]
+   }
+  },
+  {
+   "round": "Playoffs Matchday 2",
+   "date": "Feb 25",
+   "team1": "Real Madrid CF",
+   "team2": "Sport Lisboa e Benfica",
+   "score": {
+    "ft": [
+     2,
+     1
+    ],
+    "ht": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "round": "Playoffs Matchday 2",
+   "date": "Feb 25",
+   "team1": "Paris Saint-Germain FC",
+   "team2": "AS Monaco FC",
+   "score": {
+    "ft": [
+     2,
+     2
+    ],
+    "ht": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "round": "Playoffs Matchday 2",
+   "date": "Feb 25",
+   "team1": "Juventus FC",
+   "team2": "Galatasaray SK",
+   "score": {
+    "ft": [
+     3,
+     2
+    ],
+    "ht": null
+   },
+   "note": "after extra time"
+  },
+  {
+   "round": "Finals Round of 16",
+   "date": "Mar 10",
+   "team1": "Galatasaray SK",
+   "team2": "Liverpool FC",
+   "score": {
+    "ft": [
+     1,
+     0
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "Finals Round of 16",
+   "date": "Mar 10",
+   "team1": "Atalanta BC",
+   "team2": "FC Bayern München",
+   "score": {
+    "ft": [
+     1,
+     6
+    ],
+    "ht": [
+     0,
+     3
+    ]
+   }
+  },
+  {
+   "round": "Finals Round of 16",
+   "date": "Mar 10",
+   "team1": "Newcastle United FC",
+   "team2": "FC Barcelona",
+   "score": {
+    "ft": [
+     1,
+     1
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "Finals Round of 16",
+   "date": "Mar 10",
+   "team1": "Club Atlético de Madrid",
+   "team2": "Tottenham Hotspur FC",
+   "score": {
+    "ft": [
+     5,
+     2
+    ],
+    "ht": [
+     4,
+     1
+    ]
+   }
+  },
+  {
+   "round": "Finals Round of 16",
+   "date": "Mar 11",
+   "team1": "Bayer 04 Leverkusen",
+   "team2": "Arsenal FC",
+   "score": {
+    "ft": [
+     1,
+     1
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "Finals Round of 16",
+   "date": "Mar 11",
+   "team1": "Paris Saint-Germain FC",
+   "team2": "Chelsea FC",
+   "score": {
+    "ft": [
+     5,
+     2
+    ],
+    "ht": [
+     2,
+     1
+    ]
+   }
+  },
+  {
+   "round": "Finals Round of 16",
+   "date": "Mar 11",
+   "team1": "Real Madrid CF",
+   "team2": "Manchester City FC",
+   "score": {
+    "ft": [
+     3,
+     0
+    ],
+    "ht": [
+     3,
+     0
+    ]
+   }
+  },
+  {
+   "round": "Finals Round of 16",
+   "date": "Mar 11",
+   "team1": "FK Bodø/Glimt",
+   "team2": "Sporting Clube de Portugal",
+   "score": {
+    "ft": [
+     3,
+     0
+    ],
+    "ht": [
+     2,
+     0
+    ]
+   }
+  },
+  {
+   "round": "Finals Round of 16",
+   "date": "Mar 17",
+   "team1": "Sporting Clube de Portugal",
+   "team2": "FK Bodø/Glimt",
+   "score": {
+    "ft": [
+     5,
+     0
+    ],
+    "ht": null
+   },
+   "note": "after extra time"
+  },
+  {
+   "round": "Finals Round of 16",
+   "date": "Mar 17",
+   "team1": "Chelsea FC",
+   "team2": "Paris Saint-Germain FC",
+   "score": {
+    "ft": [
+     0,
+     3
+    ],
+    "ht": [
+     0,
+     2
+    ]
+   }
+  },
+  {
+   "round": "Finals Round of 16",
+   "date": "Mar 17",
+   "team1": "Manchester City FC",
+   "team2": "Real Madrid CF",
+   "score": {
+    "ft": [
+     1,
+     2
+    ],
+    "ht": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "round": "Finals Round of 16",
+   "date": "Mar 17",
+   "team1": "Arsenal FC",
+   "team2": "Bayer 04 Leverkusen",
+   "score": {
+    "ft": [
+     2,
+     0
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "Finals Round of 16",
+   "date": "Mar 18",
+   "team1": "FC Barcelona",
+   "team2": "Newcastle United FC",
+   "score": {
+    "ft": [
+     7,
+     2
+    ],
+    "ht": [
+     3,
+     2
+    ]
+   }
+  },
+  {
+   "round": "Finals Round of 16",
+   "date": "Mar 18",
+   "team1": "Liverpool FC",
+   "team2": "Galatasaray SK",
+   "score": {
+    "ft": [
+     4,
+     0
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "Finals Round of 16",
+   "date": "Mar 18",
+   "team1": "FC Bayern München",
+   "team2": "Atalanta BC",
+   "score": {
+    "ft": [
+     4,
+     1
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "Finals Round of 16",
+   "date": "Mar 18",
+   "team1": "Tottenham Hotspur FC",
+   "team2": "Club Atlético de Madrid",
+   "score": {
+    "ft": [
+     3,
+     2
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "Finals Quarterfinals",
+   "date": "Apr 7",
+   "team1": "Real Madrid CF",
+   "team2": "FC Bayern München",
+   "score": {
+    "ft": [
+     1,
+     2
+    ],
+    "ht": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "round": "Finals Quarterfinals",
+   "date": "Apr 7",
+   "team1": "Sporting Clube de Portugal",
+   "team2": "Arsenal FC",
+   "score": {
+    "ft": [
+     0,
+     1
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "Finals Quarterfinals",
+   "date": "Apr 8",
+   "team1": "Paris Saint-Germain FC",
+   "team2": "Liverpool FC",
+   "score": {
+    "ft": [
+     2,
+     0
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "Finals Quarterfinals",
+   "date": "Apr 8",
+   "team1": "FC Barcelona",
+   "team2": "Club Atlético de Madrid",
+   "score": {
+    "ft": [
+     0,
+     2
+    ],
+    "ht": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "round": "Finals Quarterfinals",
+   "date": "Apr 14",
+   "team1": "Liverpool FC",
+   "team2": "Paris Saint-Germain FC",
+   "score": {
+    "ft": [
+     0,
+     2
+    ],
+    "ht": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "round": "Finals Quarterfinals",
+   "date": "Apr 14",
+   "team1": "Club Atlético de Madrid",
+   "team2": "FC Barcelona",
+   "score": {
+    "ft": [
+     1,
+     2
+    ],
+    "ht": [
+     1,
+     2
+    ]
+   }
+  },
+  {
+   "round": "Finals Quarterfinals",
+   "date": "Apr 15",
+   "team1": "FC Bayern München",
+   "team2": "Real Madrid CF",
+   "score": {
+    "ft": [
+     4,
+     3
+    ],
+    "ht": [
+     2,
+     3
+    ]
+   }
+  },
+  {
+   "round": "Finals Quarterfinals",
+   "date": "Apr 15",
+   "team1": "Arsenal FC",
+   "team2": "Sporting Clube de Portugal",
+   "score": {
+    "ft": [
+     0,
+     0
+    ],
+    "ht": null
+   }
+  },
+  {
+   "round": "Finals Semifinals",
+   "date": "Apr 28",
+   "team1": "Paris Saint-Germain FC",
+   "team2": "FC Bayern München",
+   "score": {
+    "ft": [
+     5,
+     4
+    ],
+    "ht": [
+     3,
+     2
+    ]
+   }
+  },
+  {
+   "round": "Finals Semifinals",
+   "date": "Apr 29",
+   "team1": "Club Atlético de Madrid",
+   "team2": "Arsenal FC",
+   "score": {
+    "ft": [
+     1,
+     1
+    ],
+    "ht": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "round": "Finals Semifinals",
+   "date": "May 5",
+   "team1": "Arsenal FC",
+   "team2": "Club Atlético de Madrid",
+   "score": {
+    "ft": [
+     1,
+     0
+    ],
+    "ht": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "round": "Finals Semifinals",
+   "date": "May 6",
+   "team1": "FC Bayern München",
+   "team2": "Paris Saint-Germain FC",
+   "score": {
+    "ft": [
+     1,
+     1
+    ],
+    "ht": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "round": "Finals Final",
+   "date": "May 30",
+   "team1": "Paris Saint-Germain FC",
+   "team2": "Arsenal FC",
+   "score": {
+    "ft": [
+     1,
+     1
+    ],
+    "ht": null
+   },
+   "note": "pen 4-3 after extra time"
+  }
+ ]
+}
