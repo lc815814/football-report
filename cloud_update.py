@@ -11,6 +11,7 @@ MODEL = os.path.join(ROOT, "football_model")
 INDEX = os.path.join(ROOT, "index.html")
 
 DRY = "--dry-run" in sys.argv
+FORCE = "--force" in sys.argv
 
 # 2026/27 当前赛季可自动更新的联赛（openfootball 源）
 SRC = {
@@ -111,7 +112,7 @@ def main():
     if DRY:
         print("(dry-run 模式，未写文件、未生成报告)")
         return 0
-    if not (total_add or total_fill):
+    if not (total_add or total_fill) and not FORCE:
         print("无数据变化，跳过重新生成")
         return 0
     # 重新生成报告

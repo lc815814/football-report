@@ -8,6 +8,11 @@ on:
   schedule:
     - cron: '0 9 * * *'
   workflow_dispatch:
+    inputs:
+      force:
+        description: '强制重新生成报告（true/false）'
+        required: false
+        default: 'false'
 
 permissions:
   contents: write
@@ -27,7 +32,7 @@ jobs:
       - name: 安装依赖
         run: pip install -r football_model/requirements.txt
       - name: 运行云端更新
-        run: python cloud_update.py
+        run: python cloud_update.py ${{ github.event.inputs.force == 'true' && '--force' || '' }}
       - name: 提交并推送（有变化时）
         run: |
           git config user.name "github-actions[bot]"
