@@ -606,7 +606,56 @@ def build():
 
     ht_ratio = halftime_ratio()
     print("半场进球占比(全数据统计): %.3f" % ht_ratio)
-    html = render(js_params, charts, tbl, bt, players, ht_ratio)
+
+    # ---- 竞彩真实盘口（生成时抓取，嵌入报告；无需本地服务，线上同样可用）----
+    odds_map = {}
+    odds_list = []
+    try:
+        import odds_server as _os
+        _ms = _os.fetch_matches()
+        cn2en = {}
+        for _en, _cn in CN.items():
+            if _cn not in cn2en:
+                cn2en[_cn] = _en
+        def _pick_cn(jc_name):
+            # 1) 精确（含归一化）：帕尔马 -> Parma Calcio 1913，不误配拉斯帕尔马斯
+            for _cn, _en in cn2en.items():
+                if _cn == jc_name or _os.norm(_cn) == _os.norm(jc_name):
+                    return _en
+            # 2) 竞彩别名精确（如 莱红牛 -> 莱比锡）
+            _al = _os.ALIAS.get(jc_name, "")
+            if _al:
+                for _cn, _en in cn2en.items():
+                    if _cn == _al:
+                        return _en
+            # 3) 宽松包含（最后兜底，如 博德闪耀 -> FK Bodø/Glimt）
+            for _cn, _en in cn2en.items():
+                if _os.name_match(jc_name, _cn):
+                    return _en
+            return None
+
+        for _m in _ms:
+            _he = _pick_cn(_m["home"])
+            _ae = _pick_cn(_m["away"])
+            if _he and _ae:
+                _had = _m["had"] or {}
+                odds_map[f"{_he}|{_ae}"] = {
+                    "h": _had.get("h"), "d": _had.get("d"), "a": _had.get("a"),
+                    "league": _m["league"], "date": _m["matchDate"], "time": _m["matchTime"],
+                    "src": f"竞彩官方 {_m['updateDate']} {_m['updateTime']}",
+                }
+            _h2 = _m["had"] or {}
+            _hh = _m["hhad"] or {}
+            odds_list.append({
+                "hn": _m["home"], "an": _m["away"], "lg": _m["league"],
+                "h": _h2.get("h"), "d": _h2.get("d"), "a": _h2.get("a"),
+                "hh": _hh.get("h"), "hd": _hh.get("d"), "ha": _hh.get("a"),
+            })
+        print("竞彩盘口: 在售 %d 场，匹配报告 %d 场" % (len(_ms), len(odds_map)))
+    except Exception as _e:
+        print("竞彩盘口抓取失败（不影响报告）:", type(_e).__name__)
+
+    html = render(js_params, charts, tbl, bt, players, ht_ratio, odds_map, odds_list)
     with open(OUT, "w", encoding="utf-8") as f:
         f.write(html)
     print("report saved:", OUT, f"{os.path.getsize(OUT)/1024:.0f} KB")
@@ -618,7 +667,7 @@ def _short(name, n=18):
     return s if len(s) <= n else s[:n - 1] + "…"
 
 
-def render(js_params, charts, tbl, bt, players, ht_ratio):
+def render(js_params, charts, tbl, bt, players, ht_ratio, odds_map=None, odds_list=None):
     def season_card(key, title, sub):
         rows = "".join(
             f"<tr><td>{r[0]}</td><td class='tl'>{r[1]}</td><td><b>{r[2]}</b></td>"
@@ -709,6 +758,8 @@ def render(js_params, charts, tbl, bt, players, ht_ratio):
 
     cn_json = json.dumps(CN, ensure_ascii=False)
     league_order_json = json.dumps(league_order)
+    odds_map_json = json.dumps(odds_map or {}, ensure_ascii=False)
+    odds_list_json = json.dumps(odds_list or [], ensure_ascii=False)
 
     return f"""<!DOCTYPE html>
 <html lang="zh-CN">
@@ -801,6 +852,8 @@ def render(js_params, charts, tbl, bt, players, ht_ratio):
 <script>
 const P = {json.dumps(js_params, ensure_ascii=False)};
 const HT_RATIO = {ht_ratio:.3f};
+const ODDS_MAP = {odds_map_json};
+const ODDS_LIST = {odds_list_json};
 // 球队中文名映射（显示用；逻辑仍用英文队名）
 const CN = {cn_json};
 const cn = t => CN[t] || t;
@@ -979,6 +1032,20 @@ function predict() {{
              formH: p.form[home] || '', formA: p.form[away] || '',
              formSrcH: (typeof p.form_src === 'object') ? (p.form_src[home] || '') : (p.form_src || ''),
              formSrcA: (typeof p.form_src === 'object') ? (p.form_src[away] || '') : (p.form_src || '')}};
+    const om = ODDS_MAP[home + '|' + away];
+    let oddsMatchBlock;
+    if (om && om.h) {{
+      oddsMatchBlock = '<div style="margin-top:10px;border:1px solid #22c55e;border-radius:10px;padding:8px 10px;background:rgba(34,197,94,.08)">' +
+        '<b>🎯 竞彩真实盘口已匹配</b>（' + om.league + ' ' + (om.date || '') + ' ' + (om.time || '') + '）<br>' +
+        cn(home) + ' 胜 <b style="color:#4ade80">' + om.h + '</b> ｜ 平 <b style="color:#eab308">' + om.d + '</b> ｜ ' + cn(away) + ' 胜 <b style="color:#f87171">' + om.a + '</b>' +
+        '<div class="dim">' + om.src + '</div>' +
+        '<button onclick="fillOdds()" style="padding:4px 12px;margin-top:4px">填入融合计算</button></div>';
+    }} else {{
+      oddsMatchBlock = '<div style="margin-top:10px;border:1px dashed #334155;border-radius:10px;padding:8px 10px">' +
+        '<div class="dim">竞彩盘口：该场暂未开售（一般赛前 1-3 天开售）。' +
+        (ODDS_LIST.length ? '当前在售 <b>' + ODDS_LIST.length + '</b> 场：<a href="#" onclick="toggleOddsList();return false">展开在售列表</a>' : '') + '</div>' +
+        '<div id="oddslist" style="display:none;margin-top:6px">' + oddsListHTML() + '</div></div>';
+    }}
     document.getElementById('pout').innerHTML =
       tagSame +
       '<div><b>' + cn(home) + '</b> 主场 vs <b>' + cn(away) + '</b>（' + p.season + '）</div>' +
@@ -991,6 +1058,7 @@ function predict() {{
         '　' + cn(away) + ' 胜 ' + (pa / tot * 100).toFixed(1) + '% ' + bar(pa / tot) + '</div>' +
       '<div style="margin-top:6px">最可能比分：<b>' + best.s + '</b>（' + (best.p / tot * 100).toFixed(1) + '%）　其他：' + other + '</div>' +
       goalHTML(g) + htftHTML(ht) +
+      oddsMatchBlock +
       oddsPanel +
       '<div style="margin-top:8px;border-top:1px dashed #334155;padding-top:8px">' +
       '<div class="dim">伤停修正（可选）：输入各队缺阵主力数（0-5），每缺 1 人攻防 -4%（经验系数）</div>' +
@@ -1008,6 +1076,20 @@ function predict() {{
     const pa = Math.max(0.05, Math.min(0.85, 1 - eh - drawRate / 2));
     const pd = 1 - ph - pa;
     last = {{home: home, away: away, mode: 'elo', ph: ph, pd: pd, pa: pa}};
+    const om2 = ODDS_MAP[home + '|' + away];
+    let oddsMatchBlock;
+    if (om2 && om2.h) {{
+      oddsMatchBlock = '<div style="margin-top:10px;border:1px solid #22c55e;border-radius:10px;padding:8px 10px;background:rgba(34,197,94,.08)">' +
+        '<b>🎯 竞彩真实盘口已匹配</b>（' + om2.league + ' ' + (om2.date || '') + ' ' + (om2.time || '') + '）<br>' +
+        cn(home) + ' 胜 <b style="color:#4ade80">' + om2.h + '</b> ｜ 平 <b style="color:#eab308">' + om2.d + '</b> ｜ ' + cn(away) + ' 胜 <b style="color:#f87171">' + om2.a + '</b>' +
+        '<div class="dim">' + om2.src + '</div>' +
+        '<button onclick="fillOdds()" style="padding:4px 12px;margin-top:4px">填入融合计算</button></div>';
+    }} else {{
+      oddsMatchBlock = '<div style="margin-top:10px;border:1px dashed #334155;border-radius:10px;padding:8px 10px">' +
+        '<div class="dim">竞彩盘口：该场暂未开售（一般赛前 1-3 天开售）。' +
+        (ODDS_LIST.length ? '当前在售 <b>' + ODDS_LIST.length + '</b> 场：<a href="#" onclick="toggleOddsList();return false">展开在售列表</a>' : '') + '</div>' +
+        '<div id="oddslist" style="display:none;margin-top:6px">' + oddsListHTML() + '</div></div>';
+    }}
     document.getElementById('pout').innerHTML =
       tagCross +
       '<div><b>' + cn(home) + '</b> 主场 vs <b>' + cn(away) + '</b>（' + p1.season + ' vs ' + p2.season + '）</div>' +
@@ -1016,10 +1098,32 @@ function predict() {{
         '　平局 ' + (pd * 100).toFixed(1) + '% ' + bar(pd) +
         '　' + cn(away) + ' 胜 ' + (pa * 100).toFixed(1) + '% ' + bar(pa) + '</div>' +
       '<div class="dim" style="margin-top:4px">两队不在同一联赛，无直接交锋数据；此结果基于 Elo 评级近似，仅供参考。</div>' +
+      oddsMatchBlock +
       oddsPanel;
   }}
 }}
 var last = null;
+function oddsListHTML() {{
+  if (!ODDS_LIST.length) return '<span class="dim">暂无在售场次</span>';
+  const rows = ODDS_LIST.map(function(m) {{
+    const odds = (m.h && m.d && m.a) ? (m.h + ' / ' + m.d + ' / ' + m.a) : '<span class="dim">仅让球盘</span>';
+    return '<div style="padding:2px 0">' + m.lg + '：' + m.hn + ' vs ' + m.an + '　欧赔 ' + odds + '</div>';
+  }}).join('');
+  return '<div style="max-height:190px;overflow:auto;border:1px solid #334155;border-radius:8px;padding:6px 10px;background:rgba(15,23,42,.6)">' + rows + '</div>';
+}}
+function toggleOddsList() {{
+  const el = document.getElementById('oddslist');
+  if (el) el.style.display = (el.style.display === 'none') ? 'block' : 'none';
+}}
+function fillOdds() {{
+  if (!last) return;
+  const om = ODDS_MAP[last.home + '|' + last.away];
+  if (!om || !om.h) return;
+  document.getElementById('oh').value = om.h;
+  document.getElementById('od').value = om.d;
+  document.getElementById('oa').value = om.a;
+  calcOdds();
+}}
 function fetchOdds() {{
   if (!last) return;
   const out = document.getElementById('mixout');
