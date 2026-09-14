@@ -15,10 +15,12 @@ where git >nul 2>nul
 if %errorlevel% neq 0 (
     echo [1/5] 未检测到 Git，正在自动安装（约 1-2 分钟）...
     winget install --id Git.Git -e --source winget --accept-package-agreements --accept-source-agreements --silent --disable-interactivity
+    if exist "%ProgramFiles%\Git\cmd\git.exe" set "PATH=%PATH%;%ProgramFiles%\Git\cmd"
+    if exist "%LocalAppData%\Programs\Git\cmd\git.exe" set "PATH=%PATH%;%LocalAppData%\Programs\Git\cmd"
     where git >nul 2>nul
     if !errorlevel! neq 0 (
         echo.
-        echo   Git 安装失败或尚未生效，请重启电脑后再运行本脚本。
+        echo   Git 安装完成，但需重启电脑生效。重启后重新双击本脚本即可。
         pause
         exit /b 1
     )
@@ -93,7 +95,7 @@ echo ============================================================
 start "" "index.html"
 echo.
 echo  下一步（可选）：
-echo   1. 让每日 14:15 自动更新 → 在豆包里说"重建足球定时任务"
-echo   2. 让本机更新自动发布到线上 → 首次推送时按提示登录 GitHub 即可
+echo   1. 让每日 14:15 自动更新 - 在豆包里说"重建足球定时任务"
+echo   2. 让本机更新自动发布到线上 - 首次推送时按提示登录 GitHub 即可
 echo.
 pause
