@@ -239,6 +239,33 @@ def league_note(fname):
     played = sum(1 for m in j.get("matches", []) if _ft(m))
     return total, played
 
+def halftime_ratio():
+    """统计全部数据中有半场比分的比赛，返回上半场进球占全场进球的真实比例。
+    用于半全场预测时把泊松期望拆分为上下半场。无数据时回退经验值 0.45。"""
+    ht_g, ft_g = 0, 0
+    for fn in os.listdir(DATA):
+        if not (fn.endswith(".json") and (fn.startswith("openfootball") or fn.startswith("cl_"))):
+            continue
+        try:
+            j = json.load(open(os.path.join(DATA, fn), encoding="utf-8"))
+        except Exception:
+            continue
+        for m in j.get("matches", []):
+            s = m.get("score")
+            if not isinstance(s, dict):
+                continue
+            ht, ft = s.get("ht"), s.get("ft")
+            if not (isinstance(ht, (list, tuple)) and len(ht) == 2 and
+                    isinstance(ft, (list, tuple)) and len(ft) == 2):
+                continue
+            if ht[0] is None or ft[0] is None:
+                continue
+            ht_g += ht[0] + ht[1]
+            ft_g += ft[0] + ft[1]
+    if ft_g <= 0:
+        return 0.45
+    return ht_g / ft_g
+
 
 def model_params(matches):
     poisson = fm.PoissonModel().fit(matches)
@@ -529,7 +556,9 @@ def build():
     except Exception:
         pass
 
-    html = render(js_params, charts, tbl, bt, players)
+    ht_ratio = halftime_ratio()
+    print("半场进球占比(全数据统计): %.3f" % ht_ratio)
+    html = render(js_params, charts, tbl, bt, players, ht_ratio)
     with open(OUT, "w", encoding="utf-8") as f:
         f.write(html)
     print("report saved:", OUT, f"{os.path.getsize(OUT)/1024:.0f} KB")
@@ -541,7 +570,7 @@ def _short(name, n=18):
     return s if len(s) <= n else s[:n - 1] + "…"
 
 
-def render(js_params, charts, tbl, bt, players):
+def render(js_params, charts, tbl, bt, players, ht_ratio):
     def season_card(key, title, sub):
         rows = "".join(
             f"<tr><td>{r[0]}</td><td class='tl'>{r[1]}</td><td><b>{r[2]}</b></td>"
@@ -723,6 +752,7 @@ def render(js_params, charts, tbl, bt, players):
 
 <script>
 const P = {json.dumps(js_params, ensure_ascii=False)};
+const HT_RATIO = {ht_ratio:.3f};
 // 球队中文名映射（显示用；逻辑仍用英文队名）
 const CN = {cn_json};
 const cn = t => CN[t] || t;
@@ -821,6 +851,43 @@ const goalStats = (lamH, lamA) => {{
       '<div style="display:flex;align-items:flex-end;margin-top:6px">' + bars + '</div>' +
       '<div class="dim" style="margin-top:2px">总进球分布（0-6+ 球，泊松模型）</div></div>';
   }};
+const HT_LABEL = {{'W': '主胜', 'D': '平', 'L': '客胜'}};
+const htftStats = (lamH, lamA) => {{
+  const r = HT_RATIO;
+  const lh1 = lamH * r, la1 = lamA * r;
+  const lh2 = lamH * (1 - r), la2 = lamA * (1 - r);
+  const grid = {{}};
+  const res = (a, b) => a > b ? 'W' : (a === b ? 'D' : 'L');
+  for (let i = 0; i <= 6; i++) for (let j = 0; j <= 6; j++) {{
+    const pht = pois(lh1, i) * pois(la1, j);
+    for (let k = 0; k <= 6; k++) for (let l = 0; l <= 6; l++) {{
+      const p = pht * pois(lh2, k) * pois(la2, l);
+      const key = res(i, j) + res(i + k, j + l);
+      grid[key] = (grid[key] || 0) + p;
+    }}
+  }}
+  const order = ['WW', 'WD', 'WL', 'DW', 'DD', 'DL', 'LW', 'LD', 'LL'];
+  return order.map(k => [k, grid[k] || 0]).sort((a, b) => b[1] - a[1]);
+}};
+const htftHTML = (list) => {{
+  const top3 = list.slice(0, 3);
+  const cells = list.map((x, idx) => {{
+    const hl = idx < 3;
+    return '<div style="flex:1;min-width:64px;text-align:center;border:1px solid ' +
+      (hl ? '#2e86ab' : '#334155') + ';border-radius:8px;padding:4px 2px;background:#0f172a">' +
+      '<div style="font-size:12px;color:' + (x[0][0] === x[0][1] ? '#4ade80' : '#e2e8f0') + '">' +
+      HT_LABEL[x[0][0]] + HT_LABEL[x[0][1]] + '</div>' +
+      '<div style="font-size:11px;color:#94a3b8">' + (x[1] * 100).toFixed(1) + '%</div></div>';
+  }}).join('');
+  return '<div style="margin-top:8px;border-top:1px dashed #334155;padding-top:8px">' +
+    '<b>半全场预测</b>（上半场+全场，模型拆分，非官方盘口）：最可能 <b>' +
+    HT_LABEL[top3[0][0][0]] + HT_LABEL[top3[0][0][1]] + '</b>（' + (top3[0][1] * 100).toFixed(1) + '%）｜ 其他：' +
+    top3.slice(1).map(t => HT_LABEL[t[0][0]] + HT_LABEL[t[0][1]] + '(' + (t[1] * 100).toFixed(1) + '%)').join('，') +
+    '</div><div style="display:flex;flex-wrap:wrap;gap:4px;margin-top:6px">' + cells + '</div>' +
+    '<div class="dim" style="margin-top:2px">半全场九宫格：前半场 后全场（如"平胜"=半场平、全场胜）；上半场进球占比 ' +
+    (HT_RATIO * 100).toFixed(0) + '%（全部历史数据统计）</div></div>';
+}};
+
 function predict() {{
   const home = document.getElementById('home').value;
   const away = document.getElementById('away').value;
@@ -856,6 +923,7 @@ function predict() {{
     }}
     const tot = ph + pd + pa;
     const g = goalStats(lamH, lamA);
+    const ht = htftStats(lamH, lamA);
     top.sort((x, y) => y.p - x.p);
     const other = top.slice(1, 4).map(t => t.s + '(' + (t.p / tot * 100).toFixed(1) + '%)').join('，');
     last = {{home: home, away: away, lh: lh, mode: 'poisson', lamH: lamH, lamA: lamA,
@@ -874,7 +942,7 @@ function predict() {{
         '　平局 ' + (pd / tot * 100).toFixed(1) + '% ' + bar(pd / tot) +
         '　' + cn(away) + ' 胜 ' + (pa / tot * 100).toFixed(1) + '% ' + bar(pa / tot) + '</div>' +
       '<div style="margin-top:6px">最可能比分：<b>' + best.s + '</b>（' + (best.p / tot * 100).toFixed(1) + '%）　其他：' + other + '</div>' +
-      goalHTML(g) +
+      goalHTML(g) + htftHTML(ht) +
       oddsPanel +
       '<div style="margin-top:8px;border-top:1px dashed #334155;padding-top:8px">' +
       '<div class="dim">伤停修正（可选）：输入各队缺阵主力数（0-5），每缺 1 人攻防 -4%（经验系数）</div>' +
@@ -961,10 +1029,12 @@ function applyInj() {{
   }}
   const tot = ph + pd + pa;
   const g = goalStats(lamH, lamA);
+  const ht = htftStats(lamH, lamA);
   document.getElementById('injout').innerHTML =
     '<div style="margin-top:2px">修正后预期进球：' + cn(last.home) + ' λ=' + lamH.toFixed(2) + ' ｜ ' + cn(last.away) + ' λ=' + lamA.toFixed(2) + '</div>' +
     '<div>修正后：' + cn(last.home) + ' 胜 ' + (ph / tot * 100).toFixed(1) + '%　平 ' + (pd / tot * 100).toFixed(1) + '%　' + cn(last.away) + ' 胜 ' + (pa / tot * 100).toFixed(1) + '%　最可能 <b>' + best.s + '</b></div>' +
     '<div>修正后总进球：最可能 <b>' + g.best + ' 球</b>（' + (g.p[g.best] * 100).toFixed(1) + '%）｜ 大 2.5 球 ' + (g.over25 * 100).toFixed(1) + '% ｜ 小球 ≤2 ' + (g.under25 * 100).toFixed(1) + '%</div>' +
+    htftHTML(ht) +
     '<div class="dim">每缺 1 名主力攻防 -4%（经验系数）；比赛前请以官方大名单为准。</div>';
 }}
 
