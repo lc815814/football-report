@@ -714,6 +714,8 @@ def _short(name, n=18):
 
 
 def render(js_params, charts, tbl, bt, players, ht_ratio, odds_map=None, odds_list=None):
+    import odds_server as _os  # 仅取 ALIAS 映射注入前端；模块缓存不重复拉取网络
+
     def season_card(key, title, sub):
         rows = "".join(
             f"<tr><td>{r[0]}</td><td class='tl'>{r[1]}</td><td><b>{r[2]}</b></td>"
@@ -910,6 +912,8 @@ const ODDS_LIST = {odds_list_json};
 // 球队中文名映射（显示用；逻辑仍用英文队名）
 const CN = {cn_json};
 const cn = t => CN[t] || t;
+// 竞彩中文简称 -> 报告中文名 别名（前端实时抓取匹配用）
+const JC_ALIAS = {json.dumps(_os.ALIAS, ensure_ascii=False)};
 
 // 球队 -> 联赛 key（同名队可能出现在多个联赛，取其一；联赛筛选时用该联赛自身列表）
 const LEAGUE_OF = {{}};
@@ -929,13 +933,8 @@ function allTeams() {{
 function checkOddsServer() {{
   const el = document.getElementById('oddsStatus');
   if (!el) return;
-  fetch('http://127.0.0.1:8765/ping', {{ mode: 'no-cors' }}).then(() => {{
-    el.textContent = '盘口服务：已连接 ✓（抓取真实赔率可用）';
-    el.className = 'ok';
-  }}).catch(() => {{
-    el.textContent = '盘口服务：未启动 — 请运行 python odds_server.py 后刷新';
-    el.className = 'bad';
-  }});
+  el.textContent = '真实赔率：直连竞彩官方接口 ✓（点"抓取真实赔率"实时获取）';
+  el.className = 'ok';
 }}
 function init() {{
   document.getElementById('ds').value = 'cl2627';
@@ -1184,20 +1183,45 @@ function fillOdds() {{
 function fetchOdds() {{
   if (!last) return;
   const out = document.getElementById('mixout');
-  out.innerHTML = '<span class="dim">正在连接本地盘口服务（127.0.0.1:8765）…</span>';
-  const url = 'http://127.0.0.1:8765/odds?home=' + encodeURIComponent(cn(last.home)) + '&away=' + encodeURIComponent(cn(last.away));
-  fetch(url).then(r => r.json()).then(j => {{
-    if (!j.found) {{
-      out.innerHTML = '<span class="dim">未找到该场比赛：' + (j.msg || '') + '。竞彩在售场次示例：' + ((j.available || []).join('；') || '无') + '（一般赛前 1-3 天开售）</span>';
+  out.innerHTML = '<span class="dim">正在从竞彩官方接口抓取实时欧赔…</span>';
+  const u = 'https://webapi.sporttery.cn/gateway/uniform/football/getMatchListV1.qry?clientCode=3001';
+  fetch(u).then(r => r.json()).then(j => {{
+    const days = (j.value && j.value.matchInfoList) || [];
+    let hit = null;
+    outer:
+    for (const day of days) {{
+      for (const m of (day.subMatchList || [])) {{
+        const ol = {{}};
+        for (const o of (m.oddsList || [])) ol[o.poolCode] = o;
+        const had = ol['HAD'] || {{}};
+        if (!had.h || !had.d || !had.a) continue;
+        if (jcMatch(m.homeTeamAbbName, cn(last.home)) && jcMatch(m.awayTeamAbbName, cn(last.away))) {{
+          hit = {{ m: m, had: had }};
+          break outer;
+        }}
+      }}
+    }}
+    if (!hit) {{
+      out.innerHTML = '<span class="dim">竞彩官方暂未开售本场欧赔（一般赛前 1-3 天开售），或队名未匹配。可展开下方"竞彩盘口"列表查看在售场次。</span>';
       return;
     }}
     const oh = document.getElementById('oh'), od = document.getElementById('od'), oa = document.getElementById('oa');
-    oh.value = j.odds.h; od.value = j.odds.d; oa.value = j.odds.a;
-    out.innerHTML = '<span class="dim">已获取真实赔率：' + j.league + ' ' + j.home + ' 胜 ' + j.odds.h + ' / 平 ' + j.odds.d + ' / ' + j.away + ' 胜 ' + j.odds.a + '（' + j.source + '）' + (j.note ? '；' + j.note : '') + '</span>';
+    oh.value = hit.had.h; od.value = hit.had.d; oa.value = hit.had.a;
+    const upd = (j.value && j.value.lastUpdateTime) || '';
+    out.innerHTML = '<span class="dim">已抓取竞彩官方实时欧赔：' + hit.m.leagueAbbName + ' ' + hit.m.homeTeamAbbName + ' 胜 ' + hit.had.h + ' / 平 ' + hit.had.d + ' / ' + hit.m.awayTeamAbbName + ' 胜 ' + hit.had.a + '（官方接口，更新于 ' + upd + '）</span>';
     calcOdds();
   }}).catch(e => {{
-    out.innerHTML = '<span class="dim">连接失败：请先运行 python odds_server.py 启动本地盘口服务（保持窗口开着），再点抓取。</span>';
+    out.innerHTML = '<span class="dim">直连竞彩官方接口失败：' + e + '。可手动输入赔率，或稍后再试。</span>';
   }});
+}}
+function jcMatch(jcName, reportName) {{
+  if (!jcName || !reportName) return false;
+  const jc = jcName.trim(), rp = reportName.trim();
+  if (jc === rp) return true;
+  const al = JC_ALIAS[jc];
+  if (al && (al === rp || rp.indexOf(al) >= 0 || al.indexOf(rp) >= 0)) return true;
+  if (jc.length >= 2 && (rp.indexOf(jc) >= 0 || jc.indexOf(rp) >= 0)) return true;
+  return false;
 }}
 function calcOdds() {{
   if (!last) return;
