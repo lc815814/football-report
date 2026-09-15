@@ -46,6 +46,9 @@ LEAGUES_2627 = {
     "de_2627": ("德甲 2026/27（进行中）", "openfootball_2025-26_de.1.json", "openfootball_2026-27_de.1.json"),
     "it_2627": ("意甲 2026/27（进行中）", "openfootball_2025-26_it.1.json", "openfootball_2026-27_it.1.json"),
     "fr_2627": ("法甲 2026/27（进行中）", "openfootball_2025-26_fr.1.json", "openfootball_2026-27_fr.1.json"),
+    "pt_2627": ("葡超 2026/27（进行中）", "openfootball_2025-26_pt.1.json", "openfootball_2026-27_pt.1.json"),
+    "nl_2627": ("荷甲 2026/27（进行中）", "openfootball_2025-26_nl.1.json", "openfootball_2026-27_nl.1.json"),
+    "en2_2627": ("英冠 2026/27（进行中）", "openfootball_2025-26_en.2.json", "openfootball_2026-27_en.2.json"),
 }
 # 2023/24 五大联赛（原有）
 LEAGUES_2324 = {
@@ -207,6 +210,17 @@ CN = {
     "Jeonbuk": "全北现代", "Bucheon FC": "富川FC",
     "Jeju United": "济州联", "Gwangju FC": "光州FC",
     "Daejeon Hana": "大田韩亚", "FC Anyang": "安养FC",
+    # 英冠 2026/27
+    "Birmingham City FC": "伯明翰", "Blackburn Rovers FC": "布莱克本",
+    "Bolton Wanderers FC": "博尔顿", "Bristol City FC": "布里斯托尔城",
+    "Cardiff City FC": "加的夫城", "Charlton Athletic FC": "查尔顿",
+    "Derby County FC": "德比郡", "Lincoln City FC": "林肯城",
+    "Middlesbrough FC": "米德尔斯堡", "Millwall FC": "米尔沃尔",
+    "Portsmouth FC": "朴茨茅斯", "Preston North End FC": "普雷斯顿",
+    "Queens Park Rangers FC": "女王公园巡游者", "Wrexham AFC": "雷克瑟姆",
+    # 2026/27 新晋球队（竞彩在售可匹配）
+    "Willem II Tilburg": "威廉二世", "Ipswich Town FC": "伊普斯维奇",
+    "RC Deportivo La Coruña": "拉科鲁尼亚", "Real Racing Club de Santander": "桑坦德竞技",
 }
 
 
@@ -650,6 +664,8 @@ def build():
                 "hn": _m["home"], "an": _m["away"], "lg": _m["league"],
                 "h": _h2.get("h"), "d": _h2.get("d"), "a": _h2.get("a"),
                 "hh": _hh.get("h"), "hd": _hh.get("d"), "ha": _hh.get("a"),
+                "num": _m.get("matchNum", ""), "st": _m.get("status", ""),
+                "gl": (_hh.get("goalLine") or ""),
             })
         print("竞彩盘口: 在售 %d 场，匹配报告 %d 场" % (len(_ms), len(odds_map)))
     except Exception as _e:
@@ -728,6 +744,9 @@ def render(js_params, charts, tbl, bt, players, ht_ratio, odds_map=None, odds_li
                    ("de_2627", "德甲 2026/27（进行中）"),
                    ("it_2627", "意甲 2026/27（进行中）"),
                    ("fr_2627", "法甲 2026/27（进行中）"),
+                   ("pt_2627", "葡超 2026/27（进行中）"),
+                   ("nl_2627", "荷甲 2026/27（进行中）"),
+                   ("en2_2627", "英冠 2026/27（进行中）"),
                    ("jp_2627", "日职 J1 2026/27（进行中）"),
                    ("kr_2026", "韩职 K1 2026（进行中）"),
                    ("en_2526", "英超 2025/26"), ("es_2526", "西甲 2025/26"),
@@ -1042,8 +1061,8 @@ function predict() {{
         '<button onclick="fillOdds()" style="padding:4px 12px;margin-top:4px">填入融合计算</button></div>';
     }} else {{
       oddsMatchBlock = '<div style="margin-top:10px;border:1px dashed #334155;border-radius:10px;padding:8px 10px">' +
-        '<div class="dim">竞彩盘口：该场暂未开售（一般赛前 1-3 天开售）。' +
-        (ODDS_LIST.length ? '当前在售 <b>' + ODDS_LIST.length + '</b> 场：<a href="#" onclick="toggleOddsList();return false">展开在售列表</a>' : '') + '</div>' +
+        '<div class="dim">竞彩盘口：该场暂未匹配到报告球队（或未开售）。' +
+        (ODDS_LIST.length ? '竞彩当前共 <b>' + ODDS_LIST.length + '</b> 场（含待开售）：<a href="#" onclick="toggleOddsList();return false">展开列表</a>' : '') + '</div>' +
         '<div id="oddslist" style="display:none;margin-top:6px">' + oddsListHTML() + '</div></div>';
     }}
     document.getElementById('pout').innerHTML =
@@ -1086,8 +1105,8 @@ function predict() {{
         '<button onclick="fillOdds()" style="padding:4px 12px;margin-top:4px">填入融合计算</button></div>';
     }} else {{
       oddsMatchBlock = '<div style="margin-top:10px;border:1px dashed #334155;border-radius:10px;padding:8px 10px">' +
-        '<div class="dim">竞彩盘口：该场暂未开售（一般赛前 1-3 天开售）。' +
-        (ODDS_LIST.length ? '当前在售 <b>' + ODDS_LIST.length + '</b> 场：<a href="#" onclick="toggleOddsList();return false">展开在售列表</a>' : '') + '</div>' +
+        '<div class="dim">竞彩盘口：该场暂未匹配到报告球队（或未开售）。' +
+        (ODDS_LIST.length ? '竞彩当前共 <b>' + ODDS_LIST.length + '</b> 场（含待开售）：<a href="#" onclick="toggleOddsList();return false">展开列表</a>' : '') + '</div>' +
         '<div id="oddslist" style="display:none;margin-top:6px">' + oddsListHTML() + '</div></div>';
     }}
     document.getElementById('pout').innerHTML =
@@ -1106,8 +1125,12 @@ var last = null;
 function oddsListHTML() {{
   if (!ODDS_LIST.length) return '<span class="dim">暂无在售场次</span>';
   const rows = ODDS_LIST.map(function(m) {{
-    const odds = (m.h && m.d && m.a) ? (m.h + ' / ' + m.d + ' / ' + m.a) : '<span class="dim">仅让球盘</span>';
-    return '<div style="padding:2px 0">' + m.lg + '：' + m.hn + ' vs ' + m.an + '　欧赔 ' + odds + '</div>';
+    let odds;
+    if (m.h && m.d && m.a) odds = m.h + ' / ' + m.d + ' / ' + m.a;
+    else if (m.hh && m.hd && m.ha) odds = '<span class="dim">让球盘 ' + m.hh + ' / ' + m.hd + ' / ' + m.ha + (m.gl ? '（' + m.gl + '）' : '') + '</span>';
+    else odds = '<span class="dim">—</span>';
+    const st = (m.st === 'Selling') ? '<span style="color:#4ade80">在售</span>' : '<span class="dim">待开售</span>';
+    return '<div style="padding:2px 0">' + (m.num ? '<b>' + m.num + '</b> ' : '') + m.lg + '：' + m.hn + ' vs ' + m.an + '　欧赔 ' + odds + '　' + st + '</div>';
   }}).join('');
   return '<div style="max-height:190px;overflow:auto;border:1px solid #334155;border-radius:8px;padding:6px 10px;background:rgba(15,23,42,.6)">' + rows + '</div>';
 }}
