@@ -1,0 +1,3185 @@
+{
+ "name": "br",
+ "matches": [
+  {
+   "date": "2026-08-29",
+   "team1": "São Paulo",
+   "team2": "Red Bull Bragantino",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-29",
+   "team1": "Vasco da Gama",
+   "team2": "Cruzeiro",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-30",
+   "team1": "Athletico",
+   "team2": "Fluminense",
+   "score": {
+    "ft": [
+     3,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-30",
+   "team1": "Corinthians",
+   "team2": "Santos",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-30",
+   "team1": "Flamengo",
+   "team2": "Botafogo",
+   "score": {
+    "ft": [
+     3,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-30",
+   "team1": "Grêmio",
+   "team2": "Chapecoense",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-30",
+   "team1": "Mirassol",
+   "team2": "Palmeiras",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-30",
+   "team1": "Bahia",
+   "team2": "Internacional",
+   "score": {
+    "ft": [
+     3,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-31",
+   "team1": "Remo",
+   "team2": "Coritiba",
+   "score": {
+    "ft": [
+     2,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-02",
+   "team1": "Flamengo",
+   "team2": "Mirassol",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-05",
+   "team1": "Red Bull Bragantino",
+   "team2": "Bahia",
+   "score": {
+    "ft": [
+     2,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-05",
+   "team1": "São Paulo",
+   "team2": "Atlético Mineiro",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-05",
+   "team1": "Fluminense",
+   "team2": "Vasco da Gama",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-06",
+   "team1": "Coritiba",
+   "team2": "Mirassol",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-06",
+   "team1": "Cruzeiro",
+   "team2": "Athletico",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-06",
+   "team1": "Internacional",
+   "team2": "Santos",
+   "score": {
+    "ft": [
+     2,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-06",
+   "team1": "Remo",
+   "team2": "Flamengo",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-06",
+   "team1": "Botafogo",
+   "team2": "Palmeiras",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-06",
+   "team1": "Corinthians",
+   "team2": "Chapecoense",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-07",
+   "team1": "Vitória",
+   "team2": "Grêmio",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-11",
+   "team1": "Coritiba",
+   "team2": "Athletico",
+   "score": {
+    "ft": [
+     3,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-12",
+   "team1": "Grêmio",
+   "team2": "Vasco da Gama",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-12",
+   "team1": "Atlético Mineiro",
+   "team2": "Fluminense",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-12",
+   "team1": "Chapecoense",
+   "team2": "Internacional",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-12",
+   "team1": "Palmeiras",
+   "team2": "São Paulo",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-12",
+   "team1": "Botafogo",
+   "team2": "Red Bull Bragantino",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-12",
+   "team1": "Santos",
+   "team2": "Cruzeiro",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-13",
+   "team1": "Mirassol",
+   "team2": "Vitória",
+   "score": {
+    "ft": [
+     2,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-13",
+   "team1": "Flamengo",
+   "team2": "Corinthians",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-14",
+   "team1": "Bahia",
+   "team2": "Remo",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-08",
+   "team1": "Remo",
+   "team2": "Atlético Mineiro",
+   "score": {
+    "ft": [
+     2,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-08",
+   "team1": "Coritiba",
+   "team2": "Chapecoense",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-08",
+   "team1": "Botafogo",
+   "team2": "Fluminense",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-09",
+   "team1": "Cruzeiro",
+   "team2": "Mirassol",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-09",
+   "team1": "Bahia",
+   "team2": "Vasco da Gama",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-09",
+   "team1": "Palmeiras",
+   "team2": "Internacional",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-09",
+   "team1": "Santos",
+   "team2": "Athletico",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-09",
+   "team1": "Red Bull Bragantino",
+   "team2": "Corinthians",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-09",
+   "team1": "Flamengo",
+   "team2": "Vitória",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-15",
+   "team1": "Fluminense",
+   "team2": "Palmeiras",
+   "score": {
+    "ft": [
+     3,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-15",
+   "team1": "Athletico",
+   "team2": "Red Bull Bragantino",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-15",
+   "team1": "São Paulo",
+   "team2": "Coritiba",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-16",
+   "team1": "Chapecoense",
+   "team2": "Bahia",
+   "score": {
+    "ft": [
+     3,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-16",
+   "team1": "Atlético Mineiro",
+   "team2": "Grêmio",
+   "score": {
+    "ft": [
+     3,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-16",
+   "team1": "Vasco da Gama",
+   "team2": "Santos",
+   "score": {
+    "ft": [
+     0,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-16",
+   "team1": "Vitória",
+   "team2": "Botafogo",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-16",
+   "team1": "Mirassol",
+   "team2": "Flamengo",
+   "score": {
+    "ft": [
+     1,
+     5
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-16",
+   "team1": "Corinthians",
+   "team2": "Cruzeiro",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-17",
+   "team1": "Internacional",
+   "team2": "Remo",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-22",
+   "team1": "Fluminense",
+   "team2": "Remo",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-22",
+   "team1": "Internacional",
+   "team2": "Atlético Mineiro",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-22",
+   "team1": "Cruzeiro",
+   "team2": "Flamengo",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-23",
+   "team1": "Vitória",
+   "team2": "Bahia",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-23",
+   "team1": "Red Bull Bragantino",
+   "team2": "Grêmio",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-23",
+   "team1": "Palmeiras",
+   "team2": "Vasco da Gama",
+   "score": {
+    "ft": [
+     4,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-23",
+   "team1": "Chapecoense",
+   "team2": "São Paulo",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-23",
+   "team1": "Santos",
+   "team2": "Mirassol",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-23",
+   "team1": "Coritiba",
+   "team2": "Corinthians",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-24",
+   "team1": "Botafogo",
+   "team2": "Athletico",
+   "score": {
+    "ft": [
+     2,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-29",
+   "team1": "Atlético Mineiro",
+   "team2": "Vitória",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-17",
+   "team1": "Bahia",
+   "team2": "Chapecoense",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-17",
+   "team1": "Mirassol",
+   "team2": "Grêmio",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-17",
+   "team1": "Fluminense",
+   "team2": "Red Bull Bragantino",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-21",
+   "team1": "Atlético Mineiro",
+   "team2": "Bahia",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-22",
+   "team1": "Coritiba",
+   "team2": "Palmeiras",
+   "score": {
+    "ft": [
+     1,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-22",
+   "team1": "Internacional",
+   "team2": "Cruzeiro",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-22",
+   "team1": "São Paulo",
+   "team2": "Athletico",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-22",
+   "team1": "Chapecoense",
+   "team2": "Flamengo",
+   "score": {
+    "ft": [
+     0,
+     4
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-23",
+   "team1": "Botafogo",
+   "team2": "Vitória",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-23",
+   "team1": "Corinthians",
+   "team2": "Remo",
+   "score": {
+    "ft": [
+     3,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-25",
+   "team1": "Athletico",
+   "team2": "Internacional",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-25",
+   "team1": "Santos",
+   "team2": "Chapecoense",
+   "score": {
+    "ft": [
+     2,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-25",
+   "team1": "Vasco da Gama",
+   "team2": "Mirassol",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-26",
+   "team1": "Cruzeiro",
+   "team2": "Botafogo",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-26",
+   "team1": "Bahia",
+   "team2": "Corinthians",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-26",
+   "team1": "Red Bull Bragantino",
+   "team2": "Coritiba",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-26",
+   "team1": "Grêmio",
+   "team2": "Fluminense",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-26",
+   "team1": "Flamengo",
+   "team2": "São Paulo",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-26",
+   "team1": "Remo",
+   "team2": "Vitória",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-26",
+   "team1": "Palmeiras",
+   "team2": "Atlético Mineiro",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-29",
+   "team1": "Mirassol",
+   "team2": "Remo",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-29",
+   "team1": "Internacional",
+   "team2": "Flamengo",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-29",
+   "team1": "Fluminense",
+   "team2": "Bahia",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-29",
+   "team1": "Vitória",
+   "team2": "Palmeiras",
+   "score": {
+    "ft": [
+     0,
+     4
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-30",
+   "team1": "Corinthians",
+   "team2": "Athletico",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-30",
+   "team1": "Coritiba",
+   "team2": "Cruzeiro",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-16",
+   "team1": "Palmeiras",
+   "team2": "Cruzeiro",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-17",
+   "team1": "Santos",
+   "team2": "Coritiba",
+   "score": {
+    "ft": [
+     0,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-17",
+   "team1": "Bahia",
+   "team2": "Grêmio",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-17",
+   "team1": "Botafogo",
+   "team2": "Corinthians",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-17",
+   "team1": "Chapecoense",
+   "team2": "Remo",
+   "score": {
+    "ft": [
+     2,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-17",
+   "team1": "Red Bull Bragantino",
+   "team2": "Vitória",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-17",
+   "team1": "Athletico",
+   "team2": "Flamengo",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-23",
+   "team1": "Vitória",
+   "team2": "Internacional",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-23",
+   "team1": "São Paulo",
+   "team2": "Botafogo",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-23",
+   "team1": "Mirassol",
+   "team2": "Fluminense",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-23",
+   "team1": "Grêmio",
+   "team2": "Santos",
+   "score": {
+    "ft": [
+     3,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-23",
+   "team1": "Flamengo",
+   "team2": "Palmeiras",
+   "score": {
+    "ft": [
+     0,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-24",
+   "team1": "Remo",
+   "team2": "Athletico",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-24",
+   "team1": "Cruzeiro",
+   "team2": "Chapecoense",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-24",
+   "team1": "Corinthians",
+   "team2": "Atlético Mineiro",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-24",
+   "team1": "Vasco da Gama",
+   "team2": "Red Bull Bragantino",
+   "score": {
+    "ft": [
+     0,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-25",
+   "team1": "Coritiba",
+   "team2": "Bahia",
+   "score": {
+    "ft": [
+     3,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-30",
+   "team1": "Athletico",
+   "team2": "Mirassol",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-30",
+   "team1": "Flamengo",
+   "team2": "Coritiba",
+   "score": {
+    "ft": [
+     3,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-30",
+   "team1": "Bahia",
+   "team2": "Botafogo",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-30",
+   "team1": "Grêmio",
+   "team2": "Corinthians",
+   "score": {
+    "ft": [
+     1,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-30",
+   "team1": "Santos",
+   "team2": "Vitória",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-31",
+   "team1": "Red Bull Bragantino",
+   "team2": "Internacional",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-31",
+   "team1": "Vasco da Gama",
+   "team2": "Atlético Mineiro",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-31",
+   "team1": "Palmeiras",
+   "team2": "Chapecoense",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-31",
+   "team1": "Remo",
+   "team2": "São Paulo",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-31",
+   "team1": "Cruzeiro",
+   "team2": "Fluminense",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-16",
+   "team1": "Vitória",
+   "team2": "Vasco da Gama",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-16",
+   "team1": "Botafogo",
+   "team2": "Santos",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-17",
+   "team1": "Bahia",
+   "team2": "Chapecoense",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-25",
+   "team1": "Bahia",
+   "team2": "Santos",
+   "score": {
+    "ft": [
+     2,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-25",
+   "team1": "São Paulo",
+   "team2": "Mirassol",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-26",
+   "team1": "Grêmio",
+   "team2": "Coritiba",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-26",
+   "team1": "Corinthians",
+   "team2": "Vasco da Gama",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-26",
+   "team1": "Athletico",
+   "team2": "Vitória",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-26",
+   "team1": "Red Bull Bragantino",
+   "team2": "Palmeiras",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-26",
+   "team1": "Fluminense",
+   "team2": "Chapecoense",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-26",
+   "team1": "Atlético Mineiro",
+   "team2": "Flamengo",
+   "score": {
+    "ft": [
+     0,
+     4
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-02",
+   "team1": "Botafogo",
+   "team2": "Remo",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-02",
+   "team1": "Vitória",
+   "team2": "Coritiba",
+   "score": {
+    "ft": [
+     4,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-02",
+   "team1": "Palmeiras",
+   "team2": "Santos",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-02",
+   "team1": "Athletico",
+   "team2": "Grêmio",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-02",
+   "team1": "Cruzeiro",
+   "team2": "Atlético Mineiro",
+   "score": {
+    "ft": [
+     1,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-03",
+   "team1": "São Paulo",
+   "team2": "Bahia",
+   "score": {
+    "ft": [
+     2,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-03",
+   "team1": "Flamengo",
+   "team2": "Vasco da Gama",
+   "score": {
+    "ft": [
+     2,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-03",
+   "team1": "Chapecoense",
+   "team2": "Red Bull Bragantino",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-03",
+   "team1": "Internacional",
+   "team2": "Fluminense",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-03",
+   "team1": "Mirassol",
+   "team2": "Corinthians",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-09",
+   "team1": "Coritiba",
+   "team2": "Internacional",
+   "score": {
+    "ft": [
+     2,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-09",
+   "team1": "Fluminense",
+   "team2": "Vitória",
+   "score": {
+    "ft": [
+     2,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-09",
+   "team1": "Bahia",
+   "team2": "Cruzeiro",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-10",
+   "team1": "Atlético Mineiro",
+   "team2": "Botafogo",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-10",
+   "team1": "Remo",
+   "team2": "Palmeiras",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-10",
+   "team1": "Mirassol",
+   "team2": "Chapecoense",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-10",
+   "team1": "Santos",
+   "team2": "Red Bull Bragantino",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-10",
+   "team1": "Corinthians",
+   "team2": "São Paulo",
+   "score": {
+    "ft": [
+     3,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-10",
+   "team1": "Grêmio",
+   "team2": "Flamengo",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-10",
+   "team1": "Vasco da Gama",
+   "team2": "Athletico",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-16",
+   "team1": "Atlético Mineiro",
+   "team2": "Mirassol",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-16",
+   "team1": "Internacional",
+   "team2": "Vasco da Gama",
+   "score": {
+    "ft": [
+     4,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-04",
+   "team1": "Vasco da Gama",
+   "team2": "Botafogo",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-05",
+   "team1": "Chapecoense",
+   "team2": "Vitória",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-05",
+   "team1": "Atlético Mineiro",
+   "team2": "Athletico",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-05",
+   "team1": "Flamengo",
+   "team2": "Santos",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-05",
+   "team1": "Corinthians",
+   "team2": "Internacional",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-05",
+   "team1": "Bahia",
+   "team2": "Palmeiras",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-05",
+   "team1": "Mirassol",
+   "team2": "Red Bull Bragantino",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-05",
+   "team1": "Grêmio",
+   "team2": "Remo",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-11",
+   "team1": "Remo",
+   "team2": "Vasco da Gama",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-11",
+   "team1": "Vitória",
+   "team2": "São Paulo",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-11",
+   "team1": "Mirassol",
+   "team2": "Bahia",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-11",
+   "team1": "Santos",
+   "team2": "Atlético Mineiro",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-11",
+   "team1": "Internacional",
+   "team2": "Grêmio",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-12",
+   "team1": "Athletico",
+   "team2": "Chapecoense",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-12",
+   "team1": "Botafogo",
+   "team2": "Coritiba",
+   "score": {
+    "ft": [
+     2,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-12",
+   "team1": "Fluminense",
+   "team2": "Flamengo",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-12",
+   "team1": "Cruzeiro",
+   "team2": "Red Bull Bragantino",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-12",
+   "team1": "Corinthians",
+   "team2": "Palmeiras",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-18",
+   "team1": "Chapecoense",
+   "team2": "Botafogo",
+   "score": {
+    "ft": [
+     1,
+     4
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-18",
+   "team1": "Vasco da Gama",
+   "team2": "São Paulo",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-18",
+   "team1": "Vitória",
+   "team2": "Corinthians",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-18",
+   "team1": "Cruzeiro",
+   "team2": "Grêmio",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-19",
+   "team1": "Internacional",
+   "team2": "Mirassol",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-19",
+   "team1": "Coritiba",
+   "team2": "Atlético Mineiro",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-19",
+   "team1": "Santos",
+   "team2": "Fluminense",
+   "score": {
+    "ft": [
+     2,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-19",
+   "team1": "Red Bull Bragantino",
+   "team2": "Remo",
+   "score": {
+    "ft": [
+     4,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-19",
+   "team1": "Palmeiras",
+   "team2": "Athletico",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-19",
+   "team1": "Flamengo",
+   "team2": "Bahia",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-25",
+   "team1": "Remo",
+   "team2": "Cruzeiro",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-25",
+   "team1": "Botafogo",
+   "team2": "Internacional",
+   "score": {
+    "ft": [
+     2,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-18",
+   "team1": "Mirassol",
+   "team2": "Coritiba",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-18",
+   "team1": "Atlético Mineiro",
+   "team2": "São Paulo",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-18",
+   "team1": "Vasco da Gama",
+   "team2": "Fluminense",
+   "score": {
+    "ft": [
+     3,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-18",
+   "team1": "Santos",
+   "team2": "Internacional",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-19",
+   "team1": "Grêmio",
+   "team2": "Vitória",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-19",
+   "team1": "Flamengo",
+   "team2": "Remo",
+   "score": {
+    "ft": [
+     3,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-19",
+   "team1": "Chapecoense",
+   "team2": "Corinthians",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-21",
+   "team1": "Red Bull Bragantino",
+   "team2": "Botafogo",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-21",
+   "team1": "Fluminense",
+   "team2": "Atlético Mineiro",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-21",
+   "team1": "São Paulo",
+   "team2": "Palmeiras",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-22",
+   "team1": "Athletico",
+   "team2": "Coritiba",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-22",
+   "team1": "Remo",
+   "team2": "Bahia",
+   "score": {
+    "ft": [
+     4,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-22",
+   "team1": "Vasco da Gama",
+   "team2": "Grêmio",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-22",
+   "team1": "Cruzeiro",
+   "team2": "Santos",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-22",
+   "team1": "Vitória",
+   "team2": "Mirassol",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-22",
+   "team1": "Internacional",
+   "team2": "Chapecoense",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-22",
+   "team1": "Corinthians",
+   "team2": "Flamengo",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-29",
+   "team1": "Athletico",
+   "team2": "Botafogo",
+   "score": {
+    "ft": [
+     4,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-01",
+   "team1": "Botafogo",
+   "team2": "Mirassol",
+   "score": {
+    "ft": [
+     3,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-01",
+   "team1": "Internacional",
+   "team2": "São Paulo",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-01",
+   "team1": "Bahia",
+   "team2": "Athletico",
+   "score": {
+    "ft": [
+     3,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-01",
+   "team1": "Cruzeiro",
+   "team2": "Vitória",
+   "score": {
+    "ft": [
+     3,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-01",
+   "team1": "Coritiba",
+   "team2": "Vasco da Gama",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-01",
+   "team1": "Fluminense",
+   "team2": "Corinthians",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-02",
+   "team1": "Chapecoense",
+   "team2": "Atlético Mineiro",
+   "score": {
+    "ft": [
+     0,
+     4
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-02",
+   "team1": "Santos",
+   "team2": "Remo",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-02",
+   "team1": "Palmeiras",
+   "team2": "Grêmio",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-02",
+   "team1": "Red Bull Bragantino",
+   "team2": "Flamengo",
+   "score": {
+    "ft": [
+     3,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-04",
+   "team1": "São Paulo",
+   "team2": "Cruzeiro",
+   "score": {
+    "ft": [
+     4,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-04",
+   "team1": "Coritiba",
+   "team2": "Fluminense",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-25",
+   "team1": "Red Bull Bragantino",
+   "team2": "Athletico",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-25",
+   "team1": "Remo",
+   "team2": "Internacional",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-25",
+   "team1": "Coritiba",
+   "team2": "São Paulo",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-25",
+   "team1": "Cruzeiro",
+   "team2": "Corinthians",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-25",
+   "team1": "Grêmio",
+   "team2": "Atlético Mineiro",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-25",
+   "team1": "Palmeiras",
+   "team2": "Fluminense",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-26",
+   "team1": "Santos",
+   "team2": "Vasco da Gama",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-10",
+   "team1": "Mirassol",
+   "team2": "Santos",
+   "score": {
+    "ft": [
+     2,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-11",
+   "team1": "Atlético Mineiro",
+   "team2": "Internacional",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-11",
+   "team1": "Bahia",
+   "team2": "Vitória",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-11",
+   "team1": "Corinthians",
+   "team2": "Coritiba",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-11",
+   "team1": "Flamengo",
+   "team2": "Cruzeiro",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-12",
+   "team1": "Remo",
+   "team2": "Fluminense",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-12",
+   "team1": "Vasco da Gama",
+   "team2": "Palmeiras",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-12",
+   "team1": "São Paulo",
+   "team2": "Chapecoense",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-12",
+   "team1": "Grêmio",
+   "team2": "Red Bull Bragantino",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-14",
+   "team1": "Vitória",
+   "team2": "Atlético Mineiro",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-14",
+   "team1": "Botafogo",
+   "team2": "Flamengo",
+   "score": {
+    "ft": [
+     0,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-15",
+   "team1": "Internacional",
+   "team2": "Bahia",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-15",
+   "team1": "Fluminense",
+   "team2": "Athletico",
+   "score": {
+    "ft": [
+     3,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-15",
+   "team1": "Santos",
+   "team2": "Corinthians",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-15",
+   "team1": "Coritiba",
+   "team2": "Remo",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-15",
+   "team1": "Palmeiras",
+   "team2": "Mirassol",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-15",
+   "team1": "Red Bull Bragantino",
+   "team2": "São Paulo",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-15",
+   "team1": "Cruzeiro",
+   "team2": "Vasco da Gama",
+   "score": {
+    "ft": [
+     3,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-16",
+   "team1": "Chapecoense",
+   "team2": "Grêmio",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-18",
+   "team1": "Bahia",
+   "team2": "Red Bull Bragantino",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-18",
+   "team1": "Palmeiras",
+   "team2": "Botafogo",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-18",
+   "team1": "Athletico",
+   "team2": "Cruzeiro",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-01-28",
+   "team1": "Fluminense",
+   "team2": "Grêmio",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-01-28",
+   "team1": "Chapecoense",
+   "team2": "Santos",
+   "score": {
+    "ft": [
+     4,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-01-28",
+   "team1": "Corinthians",
+   "team2": "Bahia",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-01-28",
+   "team1": "São Paulo",
+   "team2": "Flamengo",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-01-29",
+   "team1": "Mirassol",
+   "team2": "Vasco da Gama",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-01-29",
+   "team1": "Botafogo",
+   "team2": "Cruzeiro",
+   "score": {
+    "ft": [
+     4,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-04",
+   "team1": "Red Bull Bragantino",
+   "team2": "Atlético Mineiro",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-04",
+   "team1": "Flamengo",
+   "team2": "Internacional",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-04",
+   "team1": "Remo",
+   "team2": "Mirassol",
+   "score": {
+    "ft": [
+     2,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-04",
+   "team1": "Santos",
+   "team2": "São Paulo",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-04",
+   "team1": "Grêmio",
+   "team2": "Botafogo",
+   "score": {
+    "ft": [
+     5,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-04",
+   "team1": "Palmeiras",
+   "team2": "Vitória",
+   "score": {
+    "ft": [
+     5,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-05",
+   "team1": "Bahia",
+   "team2": "Fluminense",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-05",
+   "team1": "Vasco da Gama",
+   "team2": "Chapecoense",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-05",
+   "team1": "Cruzeiro",
+   "team2": "Coritiba",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-10",
+   "team1": "Vitória",
+   "team2": "Flamengo",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-11",
+   "team1": "Chapecoense",
+   "team2": "Coritiba",
+   "score": {
+    "ft": [
+     3,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-11",
+   "team1": "Mirassol",
+   "team2": "Cruzeiro",
+   "score": {
+    "ft": [
+     2,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-11",
+   "team1": "Atlético Mineiro",
+   "team2": "Remo",
+   "score": {
+    "ft": [
+     3,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-11",
+   "team1": "Vasco da Gama",
+   "team2": "Bahia",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-11",
+   "team1": "São Paulo",
+   "team2": "Grêmio",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-12",
+   "team1": "Athletico",
+   "team2": "Santos",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-12",
+   "team1": "Fluminense",
+   "team2": "Botafogo",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-12",
+   "team1": "Corinthians",
+   "team2": "Red Bull Bragantino",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-12",
+   "team1": "Internacional",
+   "team2": "Palmeiras",
+   "score": {
+    "ft": [
+     1,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-19",
+   "team1": "Athletico",
+   "team2": "Corinthians",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-01-28",
+   "team1": "Coritiba",
+   "team2": "Red Bull Bragantino",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-01-28",
+   "team1": "Vitória",
+   "team2": "Remo",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-01-28",
+   "team1": "Internacional",
+   "team2": "Athletico",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-01-28",
+   "team1": "Atlético Mineiro",
+   "team2": "Palmeiras",
+   "score": {
+    "ft": [
+     2,
+     2
+    ]
+   },
+   "round": ""
+  }
+ ]
+}

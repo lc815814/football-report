@@ -1,0 +1,1745 @@
+{
+ "name": "copa",
+ "matches": [
+  {
+   "date": "2026-05-27",
+   "team1": "Libertad",
+   "team2": "Universidad Central",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-27",
+   "team1": "Independiente del Valle",
+   "team2": "Rosario Central",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-27",
+   "team1": "Club Atlético Peñarol",
+   "team2": "Independiente Santa Fe",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-27",
+   "team1": "Corinthians",
+   "team2": "Club Atlético Platense",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-27",
+   "team1": "Bolívar",
+   "team2": "Independiente Rivadavia",
+   "score": {
+    "ft": [
+     1,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-27",
+   "team1": "Fluminense",
+   "team2": "Deportivo La Guaira",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-28",
+   "team1": "Cerro Porteño",
+   "team2": "Club Sporting Cristal",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-28",
+   "team1": "Palmeiras",
+   "team2": "Junior Barranquilla",
+   "score": {
+    "ft": [
+     4,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-28",
+   "team1": "Boca Juniors",
+   "team2": "Universidad Católica",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-28",
+   "team1": "Cruzeiro",
+   "team2": "Barcelona SC Guayaquil",
+   "score": {
+    "ft": [
+     4,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-11",
+   "team1": "Fluminense",
+   "team2": "Independiente Rivadavia",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": "Round of 16"
+  },
+  {
+   "date": "2026-08-11",
+   "team1": "Estudiantes de La Plata",
+   "team2": "Universidad Católica",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": "Round of 16"
+  },
+  {
+   "date": "2026-08-12",
+   "team1": "Club Atlético Platense",
+   "team2": "Coquimbo Unido",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": "Round of 16"
+  },
+  {
+   "date": "2026-08-12",
+   "team1": "Palmeiras",
+   "team2": "Cerro Porteño",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": "Round of 16"
+  },
+  {
+   "date": "2026-08-12",
+   "team1": "Cruzeiro",
+   "team2": "Flamengo",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": "Round of 16"
+  },
+  {
+   "date": "2026-08-13",
+   "team1": "Mirassol",
+   "team2": "LDU",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": "Round of 16"
+  },
+  {
+   "date": "2026-08-13",
+   "team1": "Rosario Central",
+   "team2": "Corinthians",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": "Round of 16"
+  },
+  {
+   "date": "2026-08-18",
+   "team1": "Independiente Rivadavia",
+   "team2": "Fluminense",
+   "score": {
+    "ft": [
+     5,
+     6
+    ]
+   },
+   "round": "Round of 16"
+  },
+  {
+   "date": "2026-08-18",
+   "team1": "Universidad Católica",
+   "team2": "Estudiantes de La Plata",
+   "score": {
+    "ft": [
+     0,
+     3
+    ]
+   },
+   "round": "Round of 16"
+  },
+  {
+   "date": "2026-08-18",
+   "team1": "Deportes Tolima",
+   "team2": "Independiente del Valle",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": "Round of 16"
+  },
+  {
+   "date": "2026-08-19",
+   "team1": "Coquimbo Unido",
+   "team2": "Club Atlético Platense",
+   "score": {
+    "ft": [
+     6,
+     7
+    ]
+   },
+   "round": "Round of 16"
+  },
+  {
+   "date": "2026-08-19",
+   "team1": "Cerro Porteño",
+   "team2": "Palmeiras",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": "Round of 16"
+  },
+  {
+   "date": "2026-08-19",
+   "team1": "Flamengo",
+   "team2": "Cruzeiro",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": "Round of 16"
+  },
+  {
+   "date": "2026-08-20",
+   "team1": "LDU",
+   "team2": "Mirassol",
+   "score": {
+    "ft": [
+     5,
+     4
+    ]
+   },
+   "round": "Round of 16"
+  },
+  {
+   "date": "2026-08-20",
+   "team1": "Corinthians",
+   "team2": "Rosario Central",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": "Round of 16"
+  },
+  {
+   "date": "2026-08-25",
+   "team1": "Independiente del Valle",
+   "team2": "Deportes Tolima",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": "Round of 16"
+  },
+  {
+   "date": "2026-09-08",
+   "team1": "Fluminense",
+   "team2": "Club Atlético Platense",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": "Quarterfinals"
+  },
+  {
+   "date": "2026-09-09",
+   "team1": "Palmeiras",
+   "team2": "LDU",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": "Quarterfinals"
+  },
+  {
+   "date": "2026-09-09",
+   "team1": "Estudiantes de La Plata",
+   "team2": "Corinthians",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": "Quarterfinals"
+  },
+  {
+   "date": "2026-09-10",
+   "team1": "Independiente del Valle",
+   "team2": "Flamengo",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": "Quarterfinals"
+  },
+  {
+   "date": "2026-05-06",
+   "team1": "Independiente Rivadavia",
+   "team2": "Fluminense",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-06",
+   "team1": "Universidad Católica",
+   "team2": "Cruzeiro",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-06",
+   "team1": "Deportes Tolima",
+   "team2": "Nacional",
+   "score": {
+    "ft": [
+     3,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-07",
+   "team1": "Mirassol",
+   "team2": "LDU",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-07",
+   "team1": "Club Atlético Platense",
+   "team2": "Club Atlético Peñarol",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-07",
+   "team1": "Coquimbo Unido",
+   "team2": "Universitario de Deportes",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-07",
+   "team1": "Junior Barranquilla",
+   "team2": "Cerro Porteño",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-19",
+   "team1": "Rosario Central",
+   "team2": "Universidad Central",
+   "score": {
+    "ft": [
+     4,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-19",
+   "team1": "Fluminense",
+   "team2": "Bolívar",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-19",
+   "team1": "Coquimbo Unido",
+   "team2": "Deportes Tolima",
+   "score": {
+    "ft": [
+     3,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-19",
+   "team1": "Club Always Ready",
+   "team2": "Mirassol",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-19",
+   "team1": "Independiente Santa Fe",
+   "team2": "Club Atlético Platense",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-19",
+   "team1": "Boca Juniors",
+   "team2": "Cruzeiro",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-19",
+   "team1": "Independiente del Valle",
+   "team2": "Libertad",
+   "score": {
+    "ft": [
+     4,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-20",
+   "team1": "Nacional",
+   "team2": "Universitario de Deportes",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-20",
+   "team1": "LDU",
+   "team2": "CA Lanús",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-20",
+   "team1": "Palmeiras",
+   "team2": "Cerro Porteño",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-20",
+   "team1": "Flamengo",
+   "team2": "Estudiantes de La Plata",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-20",
+   "team1": "Junior Barranquilla",
+   "team2": "Club Sporting Cristal",
+   "score": {
+    "ft": [
+     3,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-20",
+   "team1": "Cusco FC",
+   "team2": "Independiente Medellín",
+   "score": {
+    "ft": [
+     2,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-21",
+   "team1": "Deportivo La Guaira",
+   "team2": "Independiente Rivadavia",
+   "score": {
+    "ft": [
+     2,
+     4
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-21",
+   "team1": "Club Atlético Peñarol",
+   "team2": "Corinthians",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-21",
+   "team1": "Universidad Católica",
+   "team2": "Barcelona SC Guayaquil",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-26",
+   "team1": "LDU",
+   "team2": "Club Always Ready",
+   "score": {
+    "ft": [
+     3,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-26",
+   "team1": "CA Lanús",
+   "team2": "Mirassol",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-26",
+   "team1": "Nacional",
+   "team2": "Coquimbo Unido",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-26",
+   "team1": "Universitario de Deportes",
+   "team2": "Deportes Tolima",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-26",
+   "team1": "Estudiantes de La Plata",
+   "team2": "Independiente Medellín",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-26",
+   "team1": "Flamengo",
+   "team2": "Cusco FC",
+   "score": {
+    "ft": [
+     3,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-15",
+   "team1": "Fluminense",
+   "team2": "Independiente Rivadavia",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-15",
+   "team1": "Independiente del Valle",
+   "team2": "Universidad Central",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-16",
+   "team1": "CA Lanús",
+   "team2": "Club Always Ready",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-16",
+   "team1": "Palmeiras",
+   "team2": "Club Sporting Cristal",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-16",
+   "team1": "Club Atlético Peñarol",
+   "team2": "Club Atlético Platense",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-16",
+   "team1": "Flamengo",
+   "team2": "Independiente Medellín",
+   "score": {
+    "ft": [
+     4,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-28",
+   "team1": "Libertad",
+   "team2": "Independiente del Valle",
+   "score": {
+    "ft": [
+     2,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-28",
+   "team1": "CA Lanús",
+   "team2": "LDU",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-28",
+   "team1": "Universidad Central",
+   "team2": "Rosario Central",
+   "score": {
+    "ft": [
+     0,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-28",
+   "team1": "Cruzeiro",
+   "team2": "Boca Juniors",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-28",
+   "team1": "Club Sporting Cristal",
+   "team2": "Junior Barranquilla",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-28",
+   "team1": "Deportes Tolima",
+   "team2": "Coquimbo Unido",
+   "score": {
+    "ft": [
+     3,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-29",
+   "team1": "Mirassol",
+   "team2": "Club Always Ready",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-29",
+   "team1": "Club Atlético Platense",
+   "team2": "Independiente Santa Fe",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-29",
+   "team1": "Barcelona SC Guayaquil",
+   "team2": "Universidad Católica",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-29",
+   "team1": "Cerro Porteño",
+   "team2": "Palmeiras",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-29",
+   "team1": "Estudiantes de La Plata",
+   "team2": "Flamengo",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-29",
+   "team1": "Universitario de Deportes",
+   "team2": "Nacional",
+   "score": {
+    "ft": [
+     4,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-30",
+   "team1": "Independiente Rivadavia",
+   "team2": "Deportivo La Guaira",
+   "score": {
+    "ft": [
+     4,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-30",
+   "team1": "Bolívar",
+   "team2": "Fluminense",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-30",
+   "team1": "Corinthians",
+   "team2": "Club Atlético Peñarol",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-30",
+   "team1": "Independiente Medellín",
+   "team2": "Cusco FC",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-05",
+   "team1": "Rosario Central",
+   "team2": "Libertad",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-05",
+   "team1": "Club Sporting Cristal",
+   "team2": "Palmeiras",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-05",
+   "team1": "Universidad Central",
+   "team2": "Independiente del Valle",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-05",
+   "team1": "Barcelona SC Guayaquil",
+   "team2": "Boca Juniors",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-05",
+   "team1": "Club Always Ready",
+   "team2": "CA Lanús",
+   "score": {
+    "ft": [
+     4,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-06",
+   "team1": "Deportivo La Guaira",
+   "team2": "Bolívar",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-06",
+   "team1": "Cusco FC",
+   "team2": "Estudiantes de La Plata",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-06",
+   "team1": "Independiente Santa Fe",
+   "team2": "Corinthians",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-10",
+   "team1": "Botafogo",
+   "team2": "Barcelona SC Guayaquil",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": "Qualification Round 3"
+  },
+  {
+   "date": "2026-03-11",
+   "team1": "Club Sporting Cristal",
+   "team2": "Carabobo FC",
+   "score": {
+    "ft": [
+     4,
+     4
+    ]
+   },
+   "round": "Qualification Round 3"
+  },
+  {
+   "date": "2026-03-11",
+   "team1": "Deportes Tolima",
+   "team2": "O'Higgins",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": "Qualification Round 3"
+  },
+  {
+   "date": "2026-03-12",
+   "team1": "Independiente Medellín",
+   "team2": "Juventud de Las Piedras",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": "Qualification Round 3"
+  },
+  {
+   "date": "2026-04-07",
+   "team1": "Independiente Rivadavia",
+   "team2": "Bolívar",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-07",
+   "team1": "Deportivo La Guaira",
+   "team2": "Fluminense",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-07",
+   "team1": "Club Always Ready",
+   "team2": "LDU",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-07",
+   "team1": "Barcelona SC Guayaquil",
+   "team2": "Cruzeiro",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-07",
+   "team1": "Universidad Católica",
+   "team2": "Boca Juniors",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-07",
+   "team1": "Deportes Tolima",
+   "team2": "Universitario de Deportes",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-08",
+   "team1": "Mirassol",
+   "team2": "CA Lanús",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-08",
+   "team1": "Coquimbo Unido",
+   "team2": "Nacional",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-08",
+   "team1": "Independiente Medellín",
+   "team2": "Estudiantes de La Plata",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-08",
+   "team1": "Junior Barranquilla",
+   "team2": "Palmeiras",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-08",
+   "team1": "Cusco FC",
+   "team2": "Flamengo",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-08",
+   "team1": "Club Sporting Cristal",
+   "team2": "Cerro Porteño",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-09",
+   "team1": "Universidad Central",
+   "team2": "Libertad",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-09",
+   "team1": "Rosario Central",
+   "team2": "Independiente del Valle",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-09",
+   "team1": "Club Atlético Platense",
+   "team2": "Corinthians",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-09",
+   "team1": "Independiente Santa Fe",
+   "team2": "Club Atlético Peñarol",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-14",
+   "team1": "Cerro Porteño",
+   "team2": "Junior Barranquilla",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-14",
+   "team1": "Nacional",
+   "team2": "Deportes Tolima",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-14",
+   "team1": "Estudiantes de La Plata",
+   "team2": "Cusco FC",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-14",
+   "team1": "Boca Juniors",
+   "team2": "Barcelona SC Guayaquil",
+   "score": {
+    "ft": [
+     3,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-14",
+   "team1": "Bolívar",
+   "team2": "Deportivo La Guaira",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-14",
+   "team1": "LDU",
+   "team2": "Mirassol",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-14",
+   "team1": "Universitario de Deportes",
+   "team2": "Coquimbo Unido",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-15",
+   "team1": "Libertad",
+   "team2": "Rosario Central",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-15",
+   "team1": "Cruzeiro",
+   "team2": "Universidad Católica",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-15",
+   "team1": "Corinthians",
+   "team2": "Independiente Santa Fe",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-03",
+   "team1": "The Strongest",
+   "team2": "Deportivo Táchira",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": "Qualification Round 1"
+  },
+  {
+   "date": "2026-02-04",
+   "team1": "CS 2 de Mayo",
+   "team2": "Alianza Lima",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": "Qualification Round 1"
+  },
+  {
+   "date": "2026-02-05",
+   "team1": "Juventud de Las Piedras",
+   "team2": "Universidad Católica del Ecuador",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": "Qualification Round 1"
+  },
+  {
+   "date": "2026-02-10",
+   "team1": "Deportivo Táchira",
+   "team2": "The Strongest",
+   "score": {
+    "ft": [
+     6,
+     3
+    ]
+   },
+   "round": "Qualification Round 1"
+  },
+  {
+   "date": "2026-02-11",
+   "team1": "Alianza Lima",
+   "team2": "CS 2 de Mayo",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": "Qualification Round 1"
+  },
+  {
+   "date": "2026-02-12",
+   "team1": "Universidad Católica del Ecuador",
+   "team2": "Juventud de Las Piedras",
+   "score": {
+    "ft": [
+     6,
+     8
+    ]
+   },
+   "round": "Qualification Round 1"
+  },
+  {
+   "date": "2026-02-17",
+   "team1": "Carabobo FC",
+   "team2": "Huachipato",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": "Qualification Round 2"
+  },
+  {
+   "date": "2026-02-17",
+   "team1": "Liverpool UY",
+   "team2": "Independiente Medellín",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": "Qualification Round 2"
+  },
+  {
+   "date": "2026-02-17",
+   "team1": "CS 2 de Mayo",
+   "team2": "Club Sporting Cristal",
+   "score": {
+    "ft": [
+     2,
+     2
+    ]
+   },
+   "round": "Qualification Round 2"
+  },
+  {
+   "date": "2026-02-18",
+   "team1": "O'Higgins",
+   "team2": "Bahia",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": "Qualification Round 2"
+  },
+  {
+   "date": "2026-02-18",
+   "team1": "Barcelona SC Guayaquil",
+   "team2": "Argentinos Juniors",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": "Qualification Round 2"
+  },
+  {
+   "date": "2026-02-18",
+   "team1": "Nacional Potosí",
+   "team2": "Botafogo",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": "Qualification Round 2"
+  },
+  {
+   "date": "2026-02-19",
+   "team1": "Juventud de Las Piedras",
+   "team2": "Guaraní",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": "Qualification Round 2"
+  },
+  {
+   "date": "2026-02-19",
+   "team1": "Deportivo Táchira",
+   "team2": "Deportes Tolima",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": "Qualification Round 2"
+  },
+  {
+   "date": "2026-02-24",
+   "team1": "Huachipato",
+   "team2": "Carabobo FC",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": "Qualification Round 2"
+  },
+  {
+   "date": "2026-02-24",
+   "team1": "Independiente Medellín",
+   "team2": "Liverpool UY",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": "Qualification Round 2"
+  },
+  {
+   "date": "2026-02-24",
+   "team1": "Club Sporting Cristal",
+   "team2": "CS 2 de Mayo",
+   "score": {
+    "ft": [
+     5,
+     4
+    ]
+   },
+   "round": "Qualification Round 2"
+  },
+  {
+   "date": "2026-02-25",
+   "team1": "Bahia",
+   "team2": "O'Higgins",
+   "score": {
+    "ft": [
+     5,
+     5
+    ]
+   },
+   "round": "Qualification Round 2"
+  },
+  {
+   "date": "2026-02-25",
+   "team1": "Argentinos Juniors",
+   "team2": "Barcelona SC Guayaquil",
+   "score": {
+    "ft": [
+     4,
+     6
+    ]
+   },
+   "round": "Qualification Round 2"
+  },
+  {
+   "date": "2026-02-25",
+   "team1": "Botafogo",
+   "team2": "Nacional Potosí",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": "Qualification Round 2"
+  },
+  {
+   "date": "2026-02-26",
+   "team1": "Guaraní",
+   "team2": "Juventud de Las Piedras",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": "Qualification Round 2"
+  },
+  {
+   "date": "2026-02-26",
+   "team1": "Deportes Tolima",
+   "team2": "Deportivo Táchira",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": "Qualification Round 2"
+  },
+  {
+   "date": "2026-03-03",
+   "team1": "Barcelona SC Guayaquil",
+   "team2": "Botafogo",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": "Qualification Round 3"
+  },
+  {
+   "date": "2026-03-04",
+   "team1": "Carabobo FC",
+   "team2": "Club Sporting Cristal",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": "Qualification Round 3"
+  },
+  {
+   "date": "2026-03-04",
+   "team1": "O'Higgins",
+   "team2": "Deportes Tolima",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": "Qualification Round 3"
+  },
+  {
+   "date": "2026-03-05",
+   "team1": "Juventud de Las Piedras",
+   "team2": "Independiente Medellín",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": "Qualification Round 3"
+  }
+ ]
+}

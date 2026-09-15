@@ -1,0 +1,2873 @@
+{
+ "name": "ec",
+ "matches": [
+  {
+   "date": "2026-08-29",
+   "team1": "Independiente del Valle",
+   "team2": "Universidad Católica del Ecuador",
+   "score": {
+    "ft": [
+     2,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-29",
+   "team1": "Guayaquil City",
+   "team2": "LDU",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-29",
+   "team1": "Manta FC",
+   "team2": "Barcelona SC Guayaquil",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-30",
+   "team1": "Aucas",
+   "team2": "Libertad FC",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-30",
+   "team1": "Orense SC",
+   "team2": "Macará",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-30",
+   "team1": "Emelec",
+   "team2": "Leones del Norte",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-01",
+   "team1": "Delfín",
+   "team2": "Técnico Universitario",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-01",
+   "team1": "LDU",
+   "team2": "Mushuc Runa SC",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-02",
+   "team1": "Macará",
+   "team2": "Manta FC",
+   "score": {
+    "ft": [
+     4,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-02",
+   "team1": "Deportivo Cuenca",
+   "team2": "Guayaquil City",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-02",
+   "team1": "Barcelona SC Guayaquil",
+   "team2": "Independiente del Valle",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-03",
+   "team1": "Universidad Católica del Ecuador",
+   "team2": "Aucas",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-03",
+   "team1": "Leones del Norte",
+   "team2": "Orense SC",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-03",
+   "team1": "Libertad FC",
+   "team2": "Emelec",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-04",
+   "team1": "Técnico Universitario",
+   "team2": "LDU",
+   "score": {
+    "ft": [
+     1,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-05",
+   "team1": "Independiente del Valle",
+   "team2": "Macará",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-06",
+   "team1": "Delfín",
+   "team2": "Universidad Católica del Ecuador",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-06",
+   "team1": "Deportivo Cuenca",
+   "team2": "Libertad FC",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-06",
+   "team1": "Aucas",
+   "team2": "Barcelona SC Guayaquil",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-07",
+   "team1": "Orense SC",
+   "team2": "Guayaquil City",
+   "score": {
+    "ft": [
+     4,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-07",
+   "team1": "Mushuc Runa SC",
+   "team2": "Leones del Norte",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-07",
+   "team1": "Emelec",
+   "team2": "Manta FC",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-12",
+   "team1": "Manta FC",
+   "team2": "Aucas",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-12",
+   "team1": "Guayaquil City",
+   "team2": "Mushuc Runa SC",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-12",
+   "team1": "LDU",
+   "team2": "Deportivo Cuenca",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-13",
+   "team1": "Leones del Norte",
+   "team2": "Técnico Universitario",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-13",
+   "team1": "Macará",
+   "team2": "Emelec",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-13",
+   "team1": "Libertad FC",
+   "team2": "Independiente del Valle",
+   "score": {
+    "ft": [
+     2,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-13",
+   "team1": "Barcelona SC Guayaquil",
+   "team2": "Delfín",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-09-14",
+   "team1": "Universidad Católica del Ecuador",
+   "team2": "Orense SC",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-02",
+   "team1": "Independiente del Valle",
+   "team2": "Deportivo Cuenca",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-02",
+   "team1": "Macará",
+   "team2": "Guayaquil City",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-02",
+   "team1": "Leones del Norte",
+   "team2": "Barcelona SC Guayaquil",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-03",
+   "team1": "LDU",
+   "team2": "Delfín",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-07",
+   "team1": "LDU",
+   "team2": "Independiente del Valle",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-08",
+   "team1": "Aucas",
+   "team2": "Leones del Norte",
+   "score": {
+    "ft": [
+     3,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-08",
+   "team1": "Barcelona SC Guayaquil",
+   "team2": "Macará",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-09",
+   "team1": "Delfín",
+   "team2": "Orense SC",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-09",
+   "team1": "Guayaquil City",
+   "team2": "Emelec",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-10",
+   "team1": "Técnico Universitario",
+   "team2": "Mushuc Runa SC",
+   "score": {
+    "ft": [
+     0,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-10",
+   "team1": "Libertad FC",
+   "team2": "Universidad Católica del Ecuador",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-10",
+   "team1": "Deportivo Cuenca",
+   "team2": "Manta FC",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-14",
+   "team1": "Independiente del Valle",
+   "team2": "Delfín",
+   "score": {
+    "ft": [
+     3,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-15",
+   "team1": "Manta FC",
+   "team2": "Leones del Norte",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-15",
+   "team1": "Guayaquil City",
+   "team2": "Libertad FC",
+   "score": {
+    "ft": [
+     2,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-15",
+   "team1": "Mushuc Runa SC",
+   "team2": "Barcelona SC Guayaquil",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-16",
+   "team1": "Orense SC",
+   "team2": "Deportivo Cuenca",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-16",
+   "team1": "Emelec",
+   "team2": "Técnico Universitario",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-16",
+   "team1": "Aucas",
+   "team2": "LDU",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-17",
+   "team1": "Macará",
+   "team2": "Universidad Católica del Ecuador",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-21",
+   "team1": "Deportivo Cuenca",
+   "team2": "Mushuc Runa SC",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-21",
+   "team1": "Leones del Norte",
+   "team2": "Independiente del Valle",
+   "score": {
+    "ft": [
+     2,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-22",
+   "team1": "Universidad Católica del Ecuador",
+   "team2": "Manta FC",
+   "score": {
+    "ft": [
+     5,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-22",
+   "team1": "Técnico Universitario",
+   "team2": "Guayaquil City",
+   "score": {
+    "ft": [
+     2,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-22",
+   "team1": "Barcelona SC Guayaquil",
+   "team2": "Orense SC",
+   "score": {
+    "ft": [
+     3,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-23",
+   "team1": "Delfín",
+   "team2": "Aucas",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-23",
+   "team1": "LDU",
+   "team2": "Emelec",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-24",
+   "team1": "Libertad FC",
+   "team2": "Macará",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-28",
+   "team1": "Mushuc Runa SC",
+   "team2": "Delfín",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-28",
+   "team1": "Técnico Universitario",
+   "team2": "Deportivo Cuenca",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-16",
+   "team1": "Aucas",
+   "team2": "Independiente del Valle",
+   "score": {
+    "ft": [
+     0,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-16",
+   "team1": "Orense SC",
+   "team2": "Emelec",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-17",
+   "team1": "Delfín",
+   "team2": "Macará",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-18",
+   "team1": "Deportivo Cuenca",
+   "team2": "Universidad Católica del Ecuador",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-18",
+   "team1": "LDU",
+   "team2": "Leones del Norte",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-18",
+   "team1": "Barcelona SC Guayaquil",
+   "team2": "Libertad FC",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-19",
+   "team1": "Técnico Universitario",
+   "team2": "Aucas",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-19",
+   "team1": "Guayaquil City",
+   "team2": "Manta FC",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-19",
+   "team1": "Independiente del Valle",
+   "team2": "Emelec",
+   "score": {
+    "ft": [
+     6,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-20",
+   "team1": "Mushuc Runa SC",
+   "team2": "Orense SC",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-21",
+   "team1": "Libertad FC",
+   "team2": "Delfín",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-21",
+   "team1": "Universidad Católica del Ecuador",
+   "team2": "Barcelona SC Guayaquil",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-22",
+   "team1": "Macará",
+   "team2": "Deportivo Cuenca",
+   "score": {
+    "ft": [
+     3,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-22",
+   "team1": "Independiente del Valle",
+   "team2": "Técnico Universitario",
+   "score": {
+    "ft": [
+     3,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-22",
+   "team1": "Manta FC",
+   "team2": "LDU",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-23",
+   "team1": "Leones del Norte",
+   "team2": "Guayaquil City",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-23",
+   "team1": "Orense SC",
+   "team2": "Aucas",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-23",
+   "team1": "Emelec",
+   "team2": "Mushuc Runa SC",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-25",
+   "team1": "Técnico Universitario",
+   "team2": "Manta FC",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-26",
+   "team1": "Delfín",
+   "team2": "Leones del Norte",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-26",
+   "team1": "Aucas",
+   "team2": "Macará",
+   "score": {
+    "ft": [
+     1,
+     4
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-26",
+   "team1": "Orense SC",
+   "team2": "Independiente del Valle",
+   "score": {
+    "ft": [
+     2,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-26",
+   "team1": "Barcelona SC Guayaquil",
+   "team2": "LDU",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-27",
+   "team1": "Mushuc Runa SC",
+   "team2": "Libertad FC",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-27",
+   "team1": "Guayaquil City",
+   "team2": "Universidad Católica del Ecuador",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-27",
+   "team1": "Deportivo Cuenca",
+   "team2": "Emelec",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-31",
+   "team1": "Libertad FC",
+   "team2": "Orense SC",
+   "score": {
+    "ft": [
+     3,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-01",
+   "team1": "Manta FC",
+   "team2": "Mushuc Runa SC",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-01",
+   "team1": "Universidad Católica del Ecuador",
+   "team2": "Técnico Universitario",
+   "score": {
+    "ft": [
+     5,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-06-01",
+   "team1": "Técnico Universitario",
+   "team2": "Barcelona SC Guayaquil",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-01",
+   "team1": "LDU",
+   "team2": "Orense SC",
+   "score": {
+    "ft": [
+     3,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-03",
+   "team1": "Independiente del Valle",
+   "team2": "Manta FC",
+   "score": {
+    "ft": [
+     4,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-04",
+   "team1": "Libertad FC",
+   "team2": "Leones del Norte",
+   "score": {
+    "ft": [
+     1,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-04",
+   "team1": "Barcelona SC Guayaquil",
+   "team2": "Deportivo Cuenca",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-05",
+   "team1": "Macará",
+   "team2": "LDU",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-05",
+   "team1": "Delfín",
+   "team2": "Emelec",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-06",
+   "team1": "Universidad Católica del Ecuador",
+   "team2": "Mushuc Runa SC",
+   "score": {
+    "ft": [
+     2,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-06",
+   "team1": "Orense SC",
+   "team2": "Técnico Universitario",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-07",
+   "team1": "Aucas",
+   "team2": "Guayaquil City",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-10",
+   "team1": "Leones del Norte",
+   "team2": "Universidad Católica del Ecuador",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-10",
+   "team1": "Técnico Universitario",
+   "team2": "Macará",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-11",
+   "team1": "Manta FC",
+   "team2": "Orense SC",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-11",
+   "team1": "Mushuc Runa SC",
+   "team2": "Independiente del Valle",
+   "score": {
+    "ft": [
+     1,
+     4
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-11",
+   "team1": "Guayaquil City",
+   "team2": "Delfín",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-12",
+   "team1": "LDU",
+   "team2": "Libertad FC",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-12",
+   "team1": "Deportivo Cuenca",
+   "team2": "Aucas",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-12",
+   "team1": "Emelec",
+   "team2": "Barcelona SC Guayaquil",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-14",
+   "team1": "Macará",
+   "team2": "Mushuc Runa SC",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-14",
+   "team1": "Manta FC",
+   "team2": "Delfín",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-15",
+   "team1": "Libertad FC",
+   "team2": "Técnico Universitario",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-15",
+   "team1": "Leones del Norte",
+   "team2": "Deportivo Cuenca",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-15",
+   "team1": "Universidad Católica del Ecuador",
+   "team2": "LDU",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-07-15",
+   "team1": "Barcelona SC Guayaquil",
+   "team2": "Guayaquil City",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-08",
+   "team1": "Orense SC",
+   "team2": "Leones del Norte",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-09",
+   "team1": "Técnico Universitario",
+   "team2": "Delfín",
+   "score": {
+    "ft": [
+     4,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-09",
+   "team1": "Guayaquil City",
+   "team2": "Deportivo Cuenca",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-09",
+   "team1": "Aucas",
+   "team2": "Universidad Católica del Ecuador",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-09",
+   "team1": "Independiente del Valle",
+   "team2": "Barcelona SC Guayaquil",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-10",
+   "team1": "Emelec",
+   "team2": "Libertad FC",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-10",
+   "team1": "Manta FC",
+   "team2": "Macará",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-11",
+   "team1": "Mushuc Runa SC",
+   "team2": "LDU",
+   "score": {
+    "ft": [
+     1,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-15",
+   "team1": "LDU",
+   "team2": "Técnico Universitario",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-15",
+   "team1": "Libertad FC",
+   "team2": "Deportivo Cuenca",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-16",
+   "team1": "Macará",
+   "team2": "Independiente del Valle",
+   "score": {
+    "ft": [
+     0,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-16",
+   "team1": "Universidad Católica del Ecuador",
+   "team2": "Delfín",
+   "score": {
+    "ft": [
+     2,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-16",
+   "team1": "Barcelona SC Guayaquil",
+   "team2": "Aucas",
+   "score": {
+    "ft": [
+     3,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-17",
+   "team1": "Leones del Norte",
+   "team2": "Mushuc Runa SC",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-17",
+   "team1": "Manta FC",
+   "team2": "Emelec",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-18",
+   "team1": "Guayaquil City",
+   "team2": "Orense SC",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-22",
+   "team1": "Independiente del Valle",
+   "team2": "Libertad FC",
+   "score": {
+    "ft": [
+     2,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-23",
+   "team1": "Mushuc Runa SC",
+   "team2": "Guayaquil City",
+   "score": {
+    "ft": [
+     2,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-23",
+   "team1": "Orense SC",
+   "team2": "Universidad Católica del Ecuador",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-23",
+   "team1": "Deportivo Cuenca",
+   "team2": "LDU",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-24",
+   "team1": "Técnico Universitario",
+   "team2": "Leones del Norte",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-24",
+   "team1": "Emelec",
+   "team2": "Macará",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-24",
+   "team1": "Delfín",
+   "team2": "Barcelona SC Guayaquil",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-25",
+   "team1": "Aucas",
+   "team2": "Manta FC",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-30",
+   "team1": "Manta FC",
+   "team2": "Libertad FC",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-30",
+   "team1": "Deportivo Cuenca",
+   "team2": "Delfín",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-31",
+   "team1": "Mushuc Runa SC",
+   "team2": "Aucas",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-31",
+   "team1": "Guayaquil City",
+   "team2": "Independiente del Valle",
+   "score": {
+    "ft": [
+     2,
+     4
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-31",
+   "team1": "Emelec",
+   "team2": "Universidad Católica del Ecuador",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-06-01",
+   "team1": "Leones del Norte",
+   "team2": "Macará",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-18",
+   "team1": "Universidad Católica del Ecuador",
+   "team2": "Libertad FC",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-18",
+   "team1": "Orense SC",
+   "team2": "Delfín",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-19",
+   "team1": "Manta FC",
+   "team2": "Deportivo Cuenca",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-19",
+   "team1": "Independiente del Valle",
+   "team2": "LDU",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-19",
+   "team1": "Macará",
+   "team2": "Barcelona SC Guayaquil",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-21",
+   "team1": "Libertad FC",
+   "team2": "Guayaquil City",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-21",
+   "team1": "Técnico Universitario",
+   "team2": "Emelec",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-22",
+   "team1": "Leones del Norte",
+   "team2": "Manta FC",
+   "score": {
+    "ft": [
+     3,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-22",
+   "team1": "Delfín",
+   "team2": "Independiente del Valle",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-22",
+   "team1": "Deportivo Cuenca",
+   "team2": "Orense SC",
+   "score": {
+    "ft": [
+     1,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-22",
+   "team1": "Barcelona SC Guayaquil",
+   "team2": "Mushuc Runa SC",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-22",
+   "team1": "LDU",
+   "team2": "Aucas",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-23",
+   "team1": "Universidad Católica del Ecuador",
+   "team2": "Macará",
+   "score": {
+    "ft": [
+     4,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-25",
+   "team1": "Mushuc Runa SC",
+   "team2": "Deportivo Cuenca",
+   "score": {
+    "ft": [
+     4,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-25",
+   "team1": "Independiente del Valle",
+   "team2": "Leones del Norte",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-25",
+   "team1": "Emelec",
+   "team2": "LDU",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-26",
+   "team1": "Macará",
+   "team2": "Libertad FC",
+   "score": {
+    "ft": [
+     3,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-26",
+   "team1": "Guayaquil City",
+   "team2": "Técnico Universitario",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-26",
+   "team1": "Orense SC",
+   "team2": "Barcelona SC Guayaquil",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-27",
+   "team1": "Manta FC",
+   "team2": "Universidad Católica del Ecuador",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-27",
+   "team1": "Aucas",
+   "team2": "Delfín",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-01",
+   "team1": "Universidad Católica del Ecuador",
+   "team2": "Independiente del Valle",
+   "score": {
+    "ft": [
+     2,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-01",
+   "team1": "Libertad FC",
+   "team2": "Aucas",
+   "score": {
+    "ft": [
+     3,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-02",
+   "team1": "Deportivo Cuenca",
+   "team2": "Técnico Universitario",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-02",
+   "team1": "LDU",
+   "team2": "Guayaquil City",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-02",
+   "team1": "Barcelona SC Guayaquil",
+   "team2": "Manta FC",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-03",
+   "team1": "Macará",
+   "team2": "Orense SC",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-03",
+   "team1": "Delfín",
+   "team2": "Mushuc Runa SC",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-03",
+   "team1": "Leones del Norte",
+   "team2": "Emelec",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-08",
+   "team1": "Orense SC",
+   "team2": "Leones del Norte",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-19",
+   "team1": "Orense SC",
+   "team2": "Mushuc Runa SC",
+   "score": {
+    "ft": [
+     3,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-19",
+   "team1": "Emelec",
+   "team2": "Independiente del Valle",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-21",
+   "team1": "Delfín",
+   "team2": "Libertad FC",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-21",
+   "team1": "Deportivo Cuenca",
+   "team2": "Macará",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-21",
+   "team1": "LDU",
+   "team2": "Manta FC",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-22",
+   "team1": "Técnico Universitario",
+   "team2": "Independiente del Valle",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-22",
+   "team1": "Barcelona SC Guayaquil",
+   "team2": "Universidad Católica del Ecuador",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-22",
+   "team1": "Mushuc Runa SC",
+   "team2": "Emelec",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-23",
+   "team1": "Guayaquil City",
+   "team2": "Leones del Norte",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-23",
+   "team1": "Aucas",
+   "team2": "Orense SC",
+   "score": {
+    "ft": [
+     3,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-03",
+   "team1": "LDU",
+   "team2": "Barcelona SC Guayaquil",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-04",
+   "team1": "Independiente del Valle",
+   "team2": "Orense SC",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-04",
+   "team1": "Universidad Católica del Ecuador",
+   "team2": "Guayaquil City",
+   "score": {
+    "ft": [
+     4,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-04",
+   "team1": "Emelec",
+   "team2": "Deportivo Cuenca",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-05",
+   "team1": "Leones del Norte",
+   "team2": "Delfín",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-05",
+   "team1": "Manta FC",
+   "team2": "Técnico Universitario",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-05",
+   "team1": "Macará",
+   "team2": "Aucas",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-06",
+   "team1": "Libertad FC",
+   "team2": "Mushuc Runa SC",
+   "score": {
+    "ft": [
+     2,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-08",
+   "team1": "Universidad Católica del Ecuador",
+   "team2": "Emelec",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-10",
+   "team1": "Delfín",
+   "team2": "LDU",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-10",
+   "team1": "Barcelona SC Guayaquil",
+   "team2": "Leones del Norte",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-11",
+   "team1": "Mushuc Runa SC",
+   "team2": "Manta FC",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-11",
+   "team1": "Orense SC",
+   "team2": "Libertad FC",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-12",
+   "team1": "Técnico Universitario",
+   "team2": "Universidad Católica del Ecuador",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-12",
+   "team1": "Deportivo Cuenca",
+   "team2": "Independiente del Valle",
+   "score": {
+    "ft": [
+     2,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-12",
+   "team1": "Guayaquil City",
+   "team2": "Macará",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-12",
+   "team1": "Aucas",
+   "team2": "Emelec",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-17",
+   "team1": "Leones del Norte",
+   "team2": "Aucas",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-17",
+   "team1": "Emelec",
+   "team2": "Guayaquil City",
+   "score": {
+    "ft": [
+     1,
+     3
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-18",
+   "team1": "Mushuc Runa SC",
+   "team2": "Técnico Universitario",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-27",
+   "team1": "Técnico Universitario",
+   "team2": "Orense SC",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-28",
+   "team1": "Leones del Norte",
+   "team2": "Libertad FC",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-28",
+   "team1": "Guayaquil City",
+   "team2": "Aucas",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-28",
+   "team1": "Emelec",
+   "team2": "Delfín",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-01",
+   "team1": "LDU",
+   "team2": "Macará",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-01",
+   "team1": "Mushuc Runa SC",
+   "team2": "Universidad Católica del Ecuador",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-01",
+   "team1": "Deportivo Cuenca",
+   "team2": "Barcelona SC Guayaquil",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-02",
+   "team1": "Manta FC",
+   "team2": "Independiente del Valle",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-06",
+   "team1": "Delfín",
+   "team2": "Guayaquil City",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-07",
+   "team1": "Independiente del Valle",
+   "team2": "Mushuc Runa SC",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-07",
+   "team1": "Barcelona SC Guayaquil",
+   "team2": "Emelec",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-07",
+   "team1": "Libertad FC",
+   "team2": "LDU",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-08",
+   "team1": "Aucas",
+   "team2": "Deportivo Cuenca",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-08",
+   "team1": "Macará",
+   "team2": "Técnico Universitario",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-08",
+   "team1": "Universidad Católica del Ecuador",
+   "team2": "Leones del Norte",
+   "score": {
+    "ft": [
+     3,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-09",
+   "team1": "Orense SC",
+   "team2": "Manta FC",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-13",
+   "team1": "Técnico Universitario",
+   "team2": "Libertad FC",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-13",
+   "team1": "Deportivo Cuenca",
+   "team2": "Leones del Norte",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-14",
+   "team1": "Independiente del Valle",
+   "team2": "Aucas",
+   "score": {
+    "ft": [
+     2,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-14",
+   "team1": "Delfín",
+   "team2": "Manta FC",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-14",
+   "team1": "LDU",
+   "team2": "Universidad Católica del Ecuador",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-15",
+   "team1": "Mushuc Runa SC",
+   "team2": "Macará",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-15",
+   "team1": "Emelec",
+   "team2": "Orense SC",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-15",
+   "team1": "Guayaquil City",
+   "team2": "Barcelona SC Guayaquil",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-17",
+   "team1": "Universidad Católica del Ecuador",
+   "team2": "Deportivo Cuenca",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-17",
+   "team1": "Leones del Norte",
+   "team2": "LDU",
+   "score": {
+    "ft": [
+     0,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-18",
+   "team1": "Macará",
+   "team2": "Delfín",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-18",
+   "team1": "Manta FC",
+   "team2": "Guayaquil City",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-18",
+   "team1": "Libertad FC",
+   "team2": "Barcelona SC Guayaquil",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-21",
+   "team1": "Aucas",
+   "team2": "Mushuc Runa SC",
+   "score": {
+    "ft": [
+     1,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-21",
+   "team1": "Barcelona SC Guayaquil",
+   "team2": "Técnico Universitario",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-22",
+   "team1": "Macará",
+   "team2": "Leones del Norte",
+   "score": {
+    "ft": [
+     0,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-22",
+   "team1": "Delfín",
+   "team2": "Deportivo Cuenca",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-22",
+   "team1": "Independiente del Valle",
+   "team2": "Guayaquil City",
+   "score": {
+    "ft": [
+     2,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-23",
+   "team1": "Libertad FC",
+   "team2": "Manta FC",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-24",
+   "team1": "Orense SC",
+   "team2": "LDU",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  }
+ ]
+}

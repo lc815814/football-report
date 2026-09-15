@@ -62,6 +62,11 @@ LEAGUES_2324 = {
 LEAGUES_SINGLE = {
     "jp_2627": ("日职 J1 2026/27（进行中）", "openfootball_2026-27-jp.1.json"),
     "kr_2026": ("韩职 K1 2026（进行中）", "openfootball_2026-kr.1.json"),
+    # 南美 2026（sofascore 结构化数据，已多源核验比分）
+    "br_2026": ("巴甲 2026（进行中）", "openfootball_2026-br.1.json"),
+    "ec_2026": ("厄甲 2026（进行中）", "openfootball_2026-ec.1.json"),
+    "ar_2025": ("阿甲 2025（已结束）", "openfootball_2025-ar.1.json"),
+    "lib2026": ("解放者杯 2026（进行中）", "openfootball_2026-copa.lib.json"),
 }
 
 # ---------------- 中文队名映射 ----------------
@@ -221,6 +226,30 @@ CN = {
     # 2026/27 新晋球队（竞彩在售可匹配）
     "Willem II Tilburg": "威廉二世", "Ipswich Town FC": "伊普斯维奇",
     "RC Deportivo La Coruña": "拉科鲁尼亚", "Real Racing Club de Santander": "桑坦德竞技",
+    # ---- 南美 2026（巴甲/厄甲/解放者杯/阿甲）----
+    # 巴甲
+    "Athletico": "巴拉纳竞技", "Atlético Mineiro": "米内罗竞技", "Bahia": "巴伊亚",
+    "Botafogo": "博塔弗戈", "Chapecoense": "沙佩科恩斯", "Corinthians": "科林蒂安",
+    "Coritiba": "科里蒂巴", "Cruzeiro": "克鲁塞罗", "Flamengo": "弗拉门戈",
+    "Fluminense": "弗鲁米嫩塞", "Grêmio": "格雷米奥", "Internacional": "巴西国际",
+    "Mirassol": "米拉索尔", "Palmeiras": "帕尔梅拉斯", "Red Bull Bragantino": "布拉甘蒂诺红牛",
+    "Remo": "雷莫", "Santos": "桑托斯", "São Paulo": "圣保罗",
+    "Vasco da Gama": "瓦斯科达伽马", "Vitória": "维多利亚",
+    # 厄甲
+    "Aucas": "奥卡斯", "Barcelona SC Guayaquil": "瓜亚基尔巴萨", "Delfín": "德尔芬",
+    "Deportivo Cuenca": "昆卡体育", "Emelec": "埃梅莱克", "Guayaquil City": "瓜亚基尔城",
+    "Independiente del Valle": "德尔瓦耶独立", "LDU": "基多体育大学",
+    "Leones del Norte": "北方雄狮", "Libertad FC": "利伯塔德", "Macará": "马卡拉",
+    "Manta FC": "曼塔", "Mushuc Runa SC": "穆舒克鲁纳", "Orense SC": "奥伦斯",
+    "Técnico Universitario": "技术大学", "Universidad Católica del Ecuador": "基多天主大学",
+    # 解放者杯 / 阿甲 关键队
+    "Club Atlético Platense": "普拉滕斯", "Platense": "普拉滕斯",
+    "Estudiantes de La Plata": "拉普拉塔大学生", "Estudiantes": "拉普拉塔大学生",
+    "Boca Juniors": "博卡青年", "River Plate": "河床", "Racing Club": "竞技俱乐部",
+    "Independiente": "独立竞技", "Argentinos Juniors": "阿根廷青年人",
+    "San Lorenzo de Almagro": "圣洛伦索", "Newell's Old Boys": "纽维尔老男孩",
+    "CA Lanús": "拉努斯", "Club Atlético Peñarol": "佩纳罗尔", "Bolívar": "玻利瓦尔",
+    "Alianza Lima": "利马联盟", "Cerro Porteño": "波特诺山丘", "Guaraní": "瓜拉尼",
 }
 
 
@@ -371,7 +400,8 @@ def build():
         js_params[key]["form_src"] = "2026 当前赛季"
         m_holders[key] = m
     # 数据完整度按赛程总场次标注：J1 2026/27 为 20 队×38 轮=380 场；K1 2026 为 12 队×33 轮=198 场
-    total_map = {"jp_2627": 380, "kr_2026": 198}
+    total_map = {"jp_2627": 380, "kr_2026": 198, "br_2026": 380, "ec_2026": 240,
+                 "ar_2025": 240, "lib2026": 155}
     for key, (name, fname) in LEAGUES_SINGLE.items():
         p = league_note(fname)[1]
         js_params[key]["data_note"] = f"{p}/{total_map[key]} 场"
@@ -749,6 +779,10 @@ def render(js_params, charts, tbl, bt, players, ht_ratio, odds_map=None, odds_li
                    ("en2_2627", "英冠 2026/27（进行中）"),
                    ("jp_2627", "日职 J1 2026/27（进行中）"),
                    ("kr_2026", "韩职 K1 2026（进行中）"),
+                   ("lib2026", "解放者杯 2026（进行中）"),
+                   ("br_2026", "巴甲 2026（进行中）"),
+                   ("ec_2026", "厄甲 2026（进行中）"),
+                   ("ar_2025", "阿甲 2025（已结束）"),
                    ("en_2526", "英超 2025/26"), ("es_2526", "西甲 2025/26"),
                    ("de_2526", "德甲 2025/26"), ("it_2526", "意甲 2025/26"),
                    ("fr_2526", "法甲 2025/26"), ("pt_2526", "葡超 2025/26"),
