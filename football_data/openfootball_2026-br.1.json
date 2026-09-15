@@ -723,18 +723,6 @@
   },
   {
    "date": "2026-07-17",
-   "team1": "Bahia",
-   "team2": "Chapecoense",
-   "score": {
-    "ft": [
-     2,
-     0
-    ]
-   },
-   "round": ""
-  },
-  {
-   "date": "2026-07-17",
    "team1": "Mirassol",
    "team2": "Grêmio",
    "score": {
@@ -1028,6 +1016,18 @@
    "score": {
     "ft": [
      0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-08",
+   "team1": "Grêmio",
+   "team2": "São Paulo",
+   "score": {
+    "ft": [
+     2,
      1
     ]
    },
@@ -1395,18 +1395,6 @@
   },
   {
    "date": "2026-04-25",
-   "team1": "Bahia",
-   "team2": "Santos",
-   "score": {
-    "ft": [
-     2,
-     2
-    ]
-   },
-   "round": ""
-  },
-  {
-   "date": "2026-04-25",
    "team1": "São Paulo",
    "team2": "Mirassol",
    "score": {
@@ -1748,6 +1736,18 @@
    "score": {
     "ft": [
      4,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-16",
+   "team1": "Fluminense",
+   "team2": "São Paulo",
+   "score": {
+    "ft": [
+     2,
      1
     ]
    },
@@ -2109,18 +2109,6 @@
     "ft": [
      2,
      2
-    ]
-   },
-   "round": ""
-  },
-  {
-   "date": "2026-03-18",
-   "team1": "Mirassol",
-   "team2": "Coritiba",
-   "score": {
-    "ft": [
-     0,
-     1
     ]
    },
    "round": ""
@@ -2474,13 +2462,13 @@
    "round": ""
   },
   {
-   "date": "2026-02-25",
-   "team1": "Red Bull Bragantino",
-   "team2": "Athletico",
+   "date": "2026-04-04",
+   "team1": "Vasco da Gama",
+   "team2": "Botafogo",
    "score": {
     "ft": [
      1,
-     1
+     2
     ]
    },
    "round": ""
@@ -2822,12 +2810,12 @@
    "round": ""
   },
   {
-   "date": "2026-01-28",
-   "team1": "Fluminense",
-   "team2": "Grêmio",
+   "date": "2026-03-18",
+   "team1": "Mirassol",
+   "team2": "Coritiba",
    "score": {
     "ft": [
-     2,
+     0,
      1
     ]
    },
@@ -3128,6 +3116,18 @@
    "score": {
     "ft": [
      0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-02-25",
+   "team1": "Red Bull Bragantino",
+   "team2": "Athletico",
+   "score": {
+    "ft": [
+     1,
      1
     ]
    },
