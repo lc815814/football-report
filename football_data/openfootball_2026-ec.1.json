@@ -723,18 +723,6 @@
   },
   {
    "date": "2026-07-16",
-   "team1": "Aucas",
-   "team2": "Independiente del Valle",
-   "score": {
-    "ft": [
-     0,
-     3
-    ]
-   },
-   "round": ""
-  },
-  {
-   "date": "2026-07-16",
    "team1": "Orense SC",
    "team2": "Emelec",
    "score": {
@@ -1070,13 +1058,13 @@
    "round": ""
   },
   {
-   "date": "2026-06-01",
-   "team1": "Técnico Universitario",
-   "team2": "Barcelona SC Guayaquil",
+   "date": "2026-08-01",
+   "team1": "Emelec",
+   "team2": "Aucas",
    "score": {
     "ft": [
-     1,
-     0
+     0,
+     2
     ]
    },
    "round": ""
@@ -1358,13 +1346,13 @@
    "round": ""
   },
   {
-   "date": "2026-05-08",
-   "team1": "Orense SC",
-   "team2": "Leones del Norte",
+   "date": "2026-07-16",
+   "team1": "Aucas",
+   "team2": "Independiente del Valle",
    "score": {
     "ft": [
-     2,
-     0
+     0,
+     3
     ]
    },
    "round": ""
@@ -1713,6 +1701,18 @@
     "ft": [
      1,
      1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-06-01",
+   "team1": "Técnico Universitario",
+   "team2": "Barcelona SC Guayaquil",
+   "score": {
+    "ft": [
+     1,
+     0
     ]
    },
    "round": ""
@@ -2438,18 +2438,6 @@
    "round": ""
   },
   {
-   "date": "2026-02-27",
-   "team1": "Técnico Universitario",
-   "team2": "Orense SC",
-   "score": {
-    "ft": [
-     1,
-     1
-    ]
-   },
-   "round": ""
-  },
-  {
    "date": "2026-02-28",
    "team1": "Leones del Norte",
    "team2": "Libertad FC",
@@ -2781,6 +2769,18 @@
     "ft": [
      0,
      0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-03-19",
+   "team1": "Aucas",
+   "team2": "Técnico Universitario",
+   "score": {
+    "ft": [
+     0,
+     1
     ]
    },
    "round": ""

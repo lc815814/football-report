@@ -3,42 +3,6 @@
  "matches": [
   {
    "date": "2026-05-27",
-   "team1": "Libertad",
-   "team2": "Universidad Central",
-   "score": {
-    "ft": [
-     0,
-     1
-    ]
-   },
-   "round": ""
-  },
-  {
-   "date": "2026-05-27",
-   "team1": "Independiente del Valle",
-   "team2": "Rosario Central",
-   "score": {
-    "ft": [
-     1,
-     0
-    ]
-   },
-   "round": ""
-  },
-  {
-   "date": "2026-05-27",
-   "team1": "Club Atlético Peñarol",
-   "team2": "Independiente Santa Fe",
-   "score": {
-    "ft": [
-     0,
-     1
-    ]
-   },
-   "round": ""
-  },
-  {
-   "date": "2026-05-27",
    "team1": "Corinthians",
    "team2": "Club Atlético Platense",
    "score": {
@@ -362,40 +326,28 @@
    "round": "Quarterfinals"
   },
   {
-   "date": "2026-05-06",
-   "team1": "Independiente Rivadavia",
+   "date": "2026-09-15",
+   "team1": "Club Atlético Platense",
    "team2": "Fluminense",
    "score": {
     "ft": [
-     1,
+     2,
      1
     ]
    },
-   "round": ""
+   "round": "Quarterfinals"
   },
   {
-   "date": "2026-05-06",
-   "team1": "Universidad Católica",
-   "team2": "Cruzeiro",
+   "date": "2026-09-16",
+   "team1": "LDU",
+   "team2": "Palmeiras",
    "score": {
     "ft": [
-     0,
-     0
+     6,
+     6
     ]
    },
-   "round": ""
-  },
-  {
-   "date": "2026-05-06",
-   "team1": "Deportes Tolima",
-   "team2": "Nacional",
-   "score": {
-    "ft": [
-     3,
-     0
-    ]
-   },
-   "round": ""
+   "round": "Quarterfinals"
   },
   {
    "date": "2026-05-07",
@@ -710,13 +662,37 @@
    "round": ""
   },
   {
-   "date": "2026-04-15",
-   "team1": "Fluminense",
-   "team2": "Independiente Rivadavia",
+   "date": "2026-05-27",
+   "team1": "Libertad",
+   "team2": "Universidad Central",
+   "score": {
+    "ft": [
+     0,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-27",
+   "team1": "Independiente del Valle",
+   "team2": "Rosario Central",
    "score": {
     "ft": [
      1,
-     2
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-05-27",
+   "team1": "Club Atlético Peñarol",
+   "team2": "Independiente Santa Fe",
+   "score": {
+    "ft": [
+     0,
+     1
     ]
    },
    "round": ""
@@ -1070,16 +1046,16 @@
    "round": ""
   },
   {
-   "date": "2026-03-10",
-   "team1": "Botafogo",
-   "team2": "Barcelona SC Guayaquil",
+   "date": "2026-05-06",
+   "team1": "Independiente Rivadavia",
+   "team2": "Fluminense",
    "score": {
     "ft": [
-     0,
+     1,
      1
     ]
    },
-   "round": "Qualification Round 3"
+   "round": ""
   },
   {
    "date": "2026-03-11",
@@ -1430,6 +1406,18 @@
    "round": ""
   },
   {
+   "date": "2026-04-15",
+   "team1": "Fluminense",
+   "team2": "Independiente Rivadavia",
+   "score": {
+    "ft": [
+     1,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
    "date": "2026-02-03",
    "team1": "The Strongest",
    "team2": "Deportivo Táchira",
@@ -1736,6 +1724,18 @@
    "score": {
     "ft": [
      1,
+     1
+    ]
+   },
+   "round": "Qualification Round 3"
+  },
+  {
+   "date": "2026-03-10",
+   "team1": "Botafogo",
+   "team2": "Barcelona SC Guayaquil",
+   "score": {
+    "ft": [
+     0,
      1
     ]
    },

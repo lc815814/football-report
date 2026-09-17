@@ -3,18 +3,6 @@
  "matches": [
   {
    "date": "2026-08-29",
-   "team1": "São Paulo",
-   "team2": "Red Bull Bragantino",
-   "score": {
-    "ft": [
-     2,
-     1
-    ]
-   },
-   "round": ""
-  },
-  {
-   "date": "2026-08-29",
    "team1": "Vasco da Gama",
    "team2": "Cruzeiro",
    "score": {
@@ -362,12 +350,12 @@
    "round": ""
   },
   {
-   "date": "2026-08-08",
-   "team1": "Remo",
-   "team2": "Atlético Mineiro",
+   "date": "2026-09-16",
+   "team1": "Botafogo",
+   "team2": "Grêmio",
    "score": {
     "ft": [
-     2,
+     3,
      2
     ]
    },
@@ -713,6 +701,18 @@
    "date": "2026-08-29",
    "team1": "Atlético Mineiro",
    "team2": "Vitória",
+   "score": {
+    "ft": [
+     2,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-08-29",
+   "team1": "São Paulo",
+   "team2": "Red Bull Bragantino",
    "score": {
     "ft": [
      2,
@@ -1754,18 +1754,6 @@
    "round": ""
   },
   {
-   "date": "2026-04-04",
-   "team1": "Vasco da Gama",
-   "team2": "Botafogo",
-   "score": {
-    "ft": [
-     1,
-     2
-    ]
-   },
-   "round": ""
-  },
-  {
    "date": "2026-04-05",
    "team1": "Chapecoense",
    "team2": "Vitória",
@@ -2105,6 +2093,18 @@
    "date": "2026-04-25",
    "team1": "Botafogo",
    "team2": "Internacional",
+   "score": {
+    "ft": [
+     2,
+     2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-25",
+   "team1": "Bahia",
+   "team2": "Santos",
    "score": {
     "ft": [
      2,
@@ -3177,6 +3177,18 @@
     "ft": [
      2,
      2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-01-28",
+   "team1": "Fluminense",
+   "team2": "Grêmio",
+   "score": {
+    "ft": [
+     2,
+     1
     ]
    },
    "round": ""
