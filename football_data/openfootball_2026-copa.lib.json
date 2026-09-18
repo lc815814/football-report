@@ -3,18 +3,6 @@
  "matches": [
   {
    "date": "2026-05-27",
-   "team1": "Corinthians",
-   "team2": "Club Atlético Platense",
-   "score": {
-    "ft": [
-     0,
-     2
-    ]
-   },
-   "round": ""
-  },
-  {
-   "date": "2026-05-27",
    "team1": "Bolívar",
    "team2": "Independiente Rivadavia",
    "score": {
@@ -362,16 +350,16 @@
    "round": "Quarterfinals"
   },
   {
-   "date": "2026-05-07",
-   "team1": "Mirassol",
-   "team2": "LDU",
+   "date": "2026-09-17",
+   "team1": "Flamengo",
+   "team2": "Independiente del Valle",
    "score": {
     "ft": [
-     2,
-     0
+     1,
+     1
     ]
    },
-   "round": ""
+   "round": "Quarterfinals"
   },
   {
    "date": "2026-05-07",
@@ -710,25 +698,13 @@
    "round": ""
   },
   {
-   "date": "2026-04-15",
-   "team1": "Independiente del Valle",
-   "team2": "Universidad Central",
+   "date": "2026-05-27",
+   "team1": "Corinthians",
+   "team2": "Club Atlético Platense",
    "score": {
     "ft": [
-     3,
-     1
-    ]
-   },
-   "round": ""
-  },
-  {
-   "date": "2026-04-16",
-   "team1": "CA Lanús",
-   "team2": "Club Always Ready",
-   "score": {
-    "ft": [
-     1,
-     0
+     0,
+     2
     ]
    },
    "round": ""
@@ -1070,28 +1046,28 @@
    "round": ""
   },
   {
-   "date": "2026-03-11",
-   "team1": "Club Sporting Cristal",
-   "team2": "Carabobo FC",
+   "date": "2026-05-06",
+   "team1": "Universidad Católica",
+   "team2": "Cruzeiro",
    "score": {
     "ft": [
-     4,
-     4
-    ]
-   },
-   "round": "Qualification Round 3"
-  },
-  {
-   "date": "2026-03-11",
-   "team1": "Deportes Tolima",
-   "team2": "O'Higgins",
-   "score": {
-    "ft": [
-     2,
+     0,
      0
     ]
    },
-   "round": "Qualification Round 3"
+   "round": ""
+  },
+  {
+   "date": "2026-05-06",
+   "team1": "Deportes Tolima",
+   "team2": "Nacional",
+   "score": {
+    "ft": [
+     3,
+     0
+    ]
+   },
+   "round": ""
   },
   {
    "date": "2026-03-12",
@@ -1430,6 +1406,30 @@
    "round": ""
   },
   {
+   "date": "2026-04-15",
+   "team1": "Independiente del Valle",
+   "team2": "Universidad Central",
+   "score": {
+    "ft": [
+     3,
+     1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-16",
+   "team1": "CA Lanús",
+   "team2": "Club Always Ready",
+   "score": {
+    "ft": [
+     1,
+     0
+    ]
+   },
+   "round": ""
+  },
+  {
    "date": "2026-02-03",
    "team1": "The Strongest",
    "team2": "Deportivo Táchira",
@@ -1749,6 +1749,30 @@
     "ft": [
      0,
      1
+    ]
+   },
+   "round": "Qualification Round 3"
+  },
+  {
+   "date": "2026-03-11",
+   "team1": "Club Sporting Cristal",
+   "team2": "Carabobo FC",
+   "score": {
+    "ft": [
+     4,
+     4
+    ]
+   },
+   "round": "Qualification Round 3"
+  },
+  {
+   "date": "2026-03-11",
+   "team1": "Deportes Tolima",
+   "team2": "O'Higgins",
+   "score": {
+    "ft": [
+     2,
+     0
     ]
    },
    "round": "Qualification Round 3"

@@ -1755,18 +1755,6 @@
   },
   {
    "date": "2026-04-05",
-   "team1": "Chapecoense",
-   "team2": "Vitória",
-   "score": {
-    "ft": [
-     1,
-     1
-    ]
-   },
-   "round": ""
-  },
-  {
-   "date": "2026-04-05",
    "team1": "Atlético Mineiro",
    "team2": "Athletico",
    "score": {
@@ -2109,6 +2097,18 @@
     "ft": [
      2,
      2
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-04-25",
+   "team1": "São Paulo",
+   "team2": "Mirassol",
+   "score": {
+    "ft": [
+     1,
+     0
     ]
    },
    "round": ""
@@ -3189,6 +3189,18 @@
     "ft": [
      2,
      1
+    ]
+   },
+   "round": ""
+  },
+  {
+   "date": "2026-01-28",
+   "team1": "Chapecoense",
+   "team2": "Santos",
+   "score": {
+    "ft": [
+     4,
+     2
     ]
    },
    "round": ""
