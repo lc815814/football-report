@@ -657,7 +657,17 @@
    "date": "2026-09-14",
    "time": "20:00",
    "team1": "Leeds United FC",
-   "team2": "Newcastle United FC"
+   "team2": "Newcastle United FC",
+   "score": {
+    "ht": [
+     3,
+     0
+    ],
+    "ft": [
+     4,
+     1
+    ]
+   }
   },
   {
    "round": "Matchday 5",
@@ -1570,6 +1580,27 @@
    "team2": "Brentford FC"
   },
   {
+   "round": "Matchday 17",
+   "date": "2026-12-27",
+   "time": "14:00",
+   "team1": "Coventry City FC",
+   "team2": "Chelsea FC"
+  },
+  {
+   "round": "Matchday 17",
+   "date": "2026-12-27",
+   "time": "16:30",
+   "team1": "Manchester United FC",
+   "team2": "Nottingham Forest FC"
+  },
+  {
+   "round": "Matchday 17",
+   "date": "2026-12-27",
+   "time": "19:00",
+   "team1": "Crystal Palace FC",
+   "team2": "Arsenal FC"
+  },
+  {
    "round": "Matchday 18",
    "date": "2026-12-30",
    "time": "20:00",
@@ -1638,6 +1669,27 @@
    "time": "20:00",
    "team1": "Crystal Palace FC",
    "team2": "AFC Bournemouth"
+  },
+  {
+   "round": "Matchday 18",
+   "date": "2026-12-29",
+   "time": "19:30",
+   "team1": "Hull City AFC",
+   "team2": "Leeds United FC"
+  },
+  {
+   "round": "Matchday 18",
+   "date": "2026-12-29",
+   "time": "19:30",
+   "team1": "Tottenham Hotspur FC",
+   "team2": "Brighton & Hove Albion FC"
+  },
+  {
+   "round": "Matchday 18",
+   "date": "2026-12-29",
+   "time": "20:15",
+   "team1": "Everton FC",
+   "team2": "Manchester City FC"
   },
   {
    "round": "Matchday 19",
@@ -1710,6 +1762,27 @@
    "team2": "Tottenham Hotspur FC"
   },
   {
+   "round": "Matchday 19",
+   "date": "2027-01-01",
+   "time": "20:00",
+   "team1": "Leeds United FC",
+   "team2": "Everton FC"
+  },
+  {
+   "round": "Matchday 19",
+   "date": "2027-01-03",
+   "time": "14:00",
+   "team1": "Chelsea FC",
+   "team2": "Newcastle United FC"
+  },
+  {
+   "round": "Matchday 19",
+   "date": "2027-01-03",
+   "time": "16:30",
+   "team1": "Manchester City FC",
+   "team2": "Tottenham Hotspur FC"
+  },
+  {
    "round": "Matchday 20",
    "date": "2027-01-06",
    "time": "20:00",
@@ -1778,6 +1851,48 @@
    "time": "20:00",
    "team1": "Ipswich Town FC",
    "team2": "Coventry City FC"
+  },
+  {
+   "round": "Matchday 20",
+   "date": "2027-01-05",
+   "time": "19:30",
+   "team1": "Arsenal FC",
+   "team2": "Brentford FC"
+  },
+  {
+   "round": "Matchday 20",
+   "date": "2027-01-05",
+   "time": "19:30",
+   "team1": "Brighton & Hove Albion FC",
+   "team2": "AFC Bournemouth"
+  },
+  {
+   "round": "Matchday 20",
+   "date": "2027-01-05",
+   "time": "19:30",
+   "team1": "Nottingham Forest FC",
+   "team2": "Hull City AFC"
+  },
+  {
+   "round": "Matchday 20",
+   "date": "2027-01-05",
+   "time": "19:30",
+   "team1": "Everton FC",
+   "team2": "Aston Villa FC"
+  },
+  {
+   "round": "Matchday 20",
+   "date": "2027-01-05",
+   "time": "20:15",
+   "team1": "Sunderland AFC",
+   "team2": "Liverpool FC"
+  },
+  {
+   "round": "Matchday 20",
+   "date": "2027-01-07",
+   "time": "20:00",
+   "team1": "Manchester United FC",
+   "team2": "Newcastle United FC"
   },
   {
    "round": "Matchday 21",
